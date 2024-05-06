@@ -1,0 +1,26 @@
+{
+	"name": "games-hub",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"config": {
+		"config_path": "../credentials/config.json"
+	},
+	"scripts": {		
+		"build-dev":" node generateAll.js"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"css": "^3.0.0",
+		"eslint": "^8.25.0",
+		"execa": "^8.0.1",
+		"fs": "^0.0.1-security",
+		"fs-extra": "^11.2.0",
+		"path": "^0.12.7",
+		"recursive-readdir": "^2.2.3"
+	},
+	"dependencies": {
+		"css": "^3.0.0",
+		"gsap": "^3.12.3"		
+	}
+}

@@ -1,0 +1,3 @@
+[submodule "eugine-tools"]
+	path = eugine-tools
+	url = git@bitbucket.org:cerebralfix/eugine-tools.git

@@ -1,0 +1,135 @@
+{
+    "question": {
+        "dataPath": "question.json"
+    },
+    "sections": [
+        {
+            "color": "0xDDDDDD",
+            "ignore": false,
+            "name": "Basics",
+            "displayName": "Video Game History",
+            "imageSrc": "",
+            "colorPalletId": 0,
+            "levels": [
+                {
+                    "name": "---",
+                    "dataPath": "how-to-play/shapes.json"
+                },
+                {
+                    "name": "---",
+                    "dataPath": "how-to-play/creatures.json"
+                },
+                {
+                    "name": "---",
+                    "dataPath": "how-to-play/people-set-1.json"
+                },
+                {
+                    "name": "---",
+                    "dataPath": "how-to-play/things.json"
+                }
+            ]
+        },
+        {
+            "color": "0xDDDDDD",
+            "ignore": false,
+            "name": "Video Games",
+            "displayName": "Video Game History",
+            "imageSrc": "",
+            "colorPalletId": 0,
+            "levels": [
+                {
+                    "name": "2nd gen",
+                    "dataPath": "videogames/videogamesLevels1.json"
+                },
+                {
+                    "name": "3nd gen",
+                    "dataPath": "videogames/videogamesLevels2.json"
+                },
+                {
+                    "name": "3nd gen",
+                    "dataPath": "videogames/videogamesLevels3.json"
+                },
+                {
+                    "name": "---",
+                    "dataPath": "movies/moviesLevels1.json"
+                }
+            ]
+        },
+        {
+            "color": "0xDDDDDD",
+            "ignore": false,
+            "name": "Pokemon",
+            "displayName": "Video Game History",
+            "imageSrc": "",
+            "colorPalletId": 3,
+            "levels": [
+                {
+                    "name": "pokemon",
+                    "dataPath": "how-to-play/pokemon.json"
+                },
+                {
+                    "name": "pokemon",
+                    "dataPath": "how-to-play/pokemon2.json"
+                }
+            ]
+        },
+        {
+            "color": "0xDDDDDD",
+            "ignore": false,
+            "name": "Synthwave",
+            "displayName": "Video Game History",
+            "imageSrc": "",
+            "colorPalletId": 1,
+            "levels": [
+                {
+                    "name": "---",
+                    "dataPath": "how-to-play/shapes-synt.json"
+                }
+            ]
+        },
+        {
+            "color": "0xDDDDDD",
+            "ignore": false,
+            "name": "Game Boy",
+            "displayName": "Video Game History",
+            "imageSrc": "",
+            "colorPalletId": 2,
+            "levels": [
+                {
+                    "name": "gameboy",
+                    "dataPath": "gameboy/gameboy1.json"
+                },
+                {
+                    "name": "gameboy",
+                    "dataPath": "gameboy/gameboyWeapons2.json"
+                },
+                {
+                    "name": "gameboy",
+                    "dataPath": "gameboy/gameboyMisc.json"
+                },
+                {
+                    "name": "gameboy",
+                    "dataPath": "gameboy/gameboyMisc2.json"
+                },
+                {
+                    "name": "gameboy",
+                    "dataPath": "gameboy/gameboycreatures.json"
+                }
+            ]
+        },
+        {
+            "color": "0xDDDDDD",
+            "ignore": true,
+            "name": "Bossa",
+            "displayName": "Video Game History",
+            "imageSrc": "",
+            "colorPalletId": 1,
+            "levels": [
+                {
+                    "name": "---",
+                    "dataPath": "how-to-play/bossa.json"
+                }
+            ]
+        }
+    ]
+}

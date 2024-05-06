@@ -1,0 +1,10 @@
+{
+    "colorPaths":[
+        "color-pallets/colors-basic.json",
+        "color-pallets/colors-synth.json",
+        "color-pallets/colors-gameboy.json",
+        "color-pallets/colors-pokemon.json",
+        "color-pallets/colors-videogames.json",
+        "color-pallets/colors-monalisa.json"
+    ]  
+}

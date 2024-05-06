@@ -1,0 +1,31 @@
+
+
+@font-face {
+    font-family: 'pixolletta8pxmedium';
+    src: url('pixolletta8px-webfont.woff2') format('woff2'),
+         url('pixolletta8px-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'round_popregular';
+    src: url('gomarice_round_pop-webfont.woff2') format('woff2'),
+         url('gomarice_round_pop-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'early_gameboyregular';
+    src: url('early_gameboy-webfont.woff2') format('woff2'),
+         url('early_gameboy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

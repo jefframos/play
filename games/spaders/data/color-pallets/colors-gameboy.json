@@ -1,0 +1,166 @@
+{
+    "pallete": [
+        {
+            "name": "gameboy",
+            "block": {
+                "id": 32,
+                "hasWhite": false,
+                "isBlock": true,
+                "color": "0x111111"
+            },
+            "list": [
+                {
+                    "hasWhite": false,
+                    "color": "0x85cd6e",
+                    "life": 0
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x89c077",
+                    "life": 1
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x4da350",
+                    "life": 2
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x65b26f",
+                    "life": 3
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x3f7e5d",
+                    "life": 4
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x37764a",
+                    "life": 5
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x224939",
+                    "life": 6
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x285746",
+                    "life": 7
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0xbad1b8",
+                    "life": 8
+                },
+                {
+                    "hasWhite": "0xbad1b8",
+                    "color": "0x252b25",
+                    "life": 5.1
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x555a56",
+                    "life": 9.1
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0xddd3ab",
+                    "life": 9.2
+                },
+                {
+                    "hasWhite": "0xbad1b8",
+                    "color": "0x3b3c2e",
+                    "life": 9.3
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x37b05b",
+                    "life": 5.3
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x7552cf",
+                    "life": 6.3
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x3b3c2e",
+                    "life": 7.3
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x3b3c2e",
+                    "life": 8.3
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x3b3c2e",
+                    "life": 4.3
+                },
+                {
+                    "hasWhite": false,
+                    "color": "0x3b3c2e",
+                    "life": 3.3
+                }
+            ],
+            "dark": "0x182018",
+            "logoColor": "0xFFFFFF",
+            "fillBarColor": "0x37764a",
+            "fillBarCompleteColor": "0xFFFFFF",
+            "background": "0xCADCA0",
+            "worldBackground": "0xbad1b8",
+            "fontColor": "0x182018",
+            "arrowTrailColor": "0x182018",
+            "buttonData": {
+                "fontColor": "0xFFFFFF",
+                "levelCompleteColor": "0x89c077",
+                "tierCompleteColor": "0x65b26f",
+                "buttonStandardColor": "0x3f7e5d",
+                "buttonStandardDarkColor": "0x252b25",
+                "buttonBackTitleColor": "0x285746",
+                "tierButtonBackground": "0xFFFFFF"
+            },
+            "grid": {
+                "color": "0xFFFFFF",
+                "border": "0x3b3c2e",
+                "background": "0x3b3c2e",
+                "sprite": "tile_1_22.png",
+                "spriteTile": "tile_1_22.png",
+                "spriteDraw": "gbGrid.png",
+                "spriteTrail": "tile_1_22.png",
+                "spriteRect": "tile_1_22.png",
+                "scaleTrail": false,
+                "minAlpha": 0.25,
+                "maxAlpha": 0.3,
+                "extraTileAlpha": 0.5
+            },
+            "backgroundAssets": {
+                "bottomBackground": "gbBackground.png",
+                "bottomBackgroundPosition": 0.01,
+                "alpha": 0,
+                "enabled": false
+            },
+            "map": {
+                "terrainColors": [
+                    "0x7BCA93",
+                    "0x252b25",
+                    "0x65b26f"
+                ],
+                "pathColors": [
+                    "0xbad1b8",
+                    "0xCADCA0",
+                    "0xE2C756"
+                ]
+            },
+            "planetID": 2,
+            "planetColors":[
+                "0xCADCA0",
+                "0x7BCA93",
+                "0xE2C756",
+                "0x65b26f"
+            ]
+        }
+    ]
+}
