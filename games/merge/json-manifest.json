@@ -1,0 +1,21 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "animations/animation-set.json",
+          "srcs": [
+            "animations/animation-set.json"
+          ]
+        },
+        {
+          "name": "combinations.json",
+          "srcs": [
+            "combinations.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
