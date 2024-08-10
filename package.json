@@ -6,8 +6,8 @@
 	"config": {
 		"config_path": "../credentials/config.json"
 	},
-	"scripts": {		
-		"build-dev":" node generateAll.js"
+	"scripts": {
+		"build-dev": "node generateAll.js"
 	},
 	"devDependencies": {
 		"cross-env": "^7.0.3",
@@ -21,6 +21,6 @@
 	},
 	"dependencies": {
 		"css": "^3.0.0",
-		"gsap": "^3.12.3"		
+		"gsap": "^3.12.3"
 	}
 }
