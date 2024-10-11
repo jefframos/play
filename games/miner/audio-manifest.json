@@ -1,0 +1,72 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "9_mm_glock.mp3",
+          "srcs": [
+            "9_mm_glock.mp3",
+            "9_mm_glock.ogg"
+          ]
+        },
+        {
+          "name": "9_mm_gunshot.mp3",
+          "srcs": [
+            "9_mm_gunshot.mp3",
+            "9_mm_gunshot.ogg"
+          ]
+        },
+        {
+          "name": "M4A1_single.mp3",
+          "srcs": [
+            "M4A1_single.mp3",
+            "M4A1_single.ogg"
+          ]
+        },
+        {
+          "name": "shotgun-reload-old.mp3",
+          "srcs": [
+            "shotgun-reload-old.mp3",
+            "shotgun-reload-old.ogg"
+          ]
+        },
+        {
+          "name": "shotgun-reload.mp3",
+          "srcs": [
+            "shotgun-reload.mp3",
+            "shotgun-reload.ogg"
+          ]
+        },
+        {
+          "name": "shotgun-spa.mp3",
+          "srcs": [
+            "shotgun-spa.mp3",
+            "shotgun-spa.ogg"
+          ]
+        },
+        {
+          "name": "Shotgun_Blast.mp3",
+          "srcs": [
+            "Shotgun_Blast.mp3",
+            "Shotgun_Blast.ogg"
+          ]
+        },
+        {
+          "name": "single_fire.mp3",
+          "srcs": [
+            "single_fire.mp3",
+            "single_fire.ogg"
+          ]
+        },
+        {
+          "name": "Sniper_Rifle.mp3",
+          "srcs": [
+            "Sniper_Rifle.mp3",
+            "Sniper_Rifle.ogg"
+          ]
+        }
+      ]
+    }
+  ]
+}
