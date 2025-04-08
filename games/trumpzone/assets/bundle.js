@@ -20055,6 +20055,10 @@ var Player = function (_GameAgent) {
                 }
             } else if (this.input.isMouseDown) {
 
+                if (Math.abs(Math.cos(this.input.direction) * this.speed) > 0.1 || Math.abs(Math.sin(this.input.direction) * this.speed) > 0.1) {
+                    this.startGameTimer += 0.06;
+                    this.lifeBar.gameView.view.visible = true;
+                }
                 //from the middle
                 this.transform.angle = Math.atan2(this.input.mousePosition.y - _config2.default.height / 2, this.input.mousePosition.x - _config2.default.width / 2);
                 this.physics.velocity.x = Math.cos(this.transform.angle) * this.speed * delta;
@@ -87281,15 +87285,16 @@ var GameScreen = function (_Screen) {
         _this.helperButtonList = new _UIList2.default();
         _this.helperButtonList.h = 200;
         _this.helperButtonList.w = 60;
-        _this.speedUpToggle = new _UIButton2.default(0x002299, 'fast_forward_icon', 0xFFFFFF, 60, 60);
-        _this.helperButtonList.addElement(_this.speedUpToggle);
-        _this.speedUpToggle.onClick.add(function () {
-            for (var index = 0; index < 100; index++) {
-                setTimeout(function () {
-                    _this.addRandomAgents(1);
-                }, 5 * index);
-            }
-        });
+        // this.speedUpToggle = new UIButton1(0x002299, 'fast_forward_icon', 0xFFFFFF, 60, 60)
+        // this.helperButtonList.addElement(this.speedUpToggle)
+        // this.speedUpToggle.onClick.add(() => {
+        //     for (let index = 0; index < 100; index++) {
+        //         setTimeout(() => {
+        //             this.addRandomAgents(1)
+        //         }, 5 * index);
+
+        //     }
+        // })
 
         _this.removeEntities = new _UIButton2.default(0x002299, 'icon_close', 0xFFFFFF, 60, 60);
         _this.helperButtonList.addElement(_this.removeEntities);
@@ -91866,6 +91871,10 @@ var GameplaySessionController = function (_GameObject) {
                     _this3.toggleDeck();
                 }
             }, 1);
+
+            setTimeout(function () {
+                _this3.onPlayerLevelUp();
+            }, 100);
         }
     }, {
         key: "onOpenChest",
@@ -92307,10 +92316,10 @@ var SurvivorDeckController = function (_GameObject) {
         _this.gameView.layer = _RenderModule2.default.UILayerOverlay;
         _this.gameView.view = new PIXI.Container();
 
-        _this.backShape = new PIXI.Graphics().beginFill(0xffffff).drawRect(0, 0, 10000, 10000);
+        _this.backShape = new PIXI.Sprite.from('background-cards');
         _this.gameView.view.addChild(_this.backShape);
-        _this.backShape.tint = 0;
-        _this.backShape.alpha = 0.9;
+        //this.backShape.tint = 0
+        _this.backShape.alpha = 1;
         _this.onConfirmLoudout = new _signals2.default.Signal();
         _this.onReshuffle = new _signals2.default.Signal();
 
@@ -92319,13 +92328,29 @@ var SurvivorDeckController = function (_GameObject) {
         _this.blocker.height = 1000;
         _this.blocker.interactive = true;
         _this.blocker.tint = 0;
-        _this.blocker.alpha = 1;
+        _this.blocker.alpha = 0.5;
         _this.gameView.view.addChildAt(_this.blocker);
 
         _this.gridContainer = new PIXI.Container();
         _this.cardsContainer = new PIXI.Container();
         _this.cardsContainer.sortableChildren = true;
         _this.transitionContainer = new PIXI.Container();
+
+        _this.eagle = new PIXI.Sprite.from('eagle');
+        _this.eagle.anchor.set(0.5);
+
+        _this.gameView.view.addChild(_this.eagle);
+
+        _this.labelTitle = new PIXI.Text('CHOOSE YOUR POWER', window.LABELS.LABEL1);
+        _this.labelTitle.style.fill = 0xFFFFFF;
+        //this.labelTitle.style.strokeThickness = 0
+        _this.labelTitle.style.wordWrap = true;
+        _this.labelTitle.style.wordWrapWidth = 500;
+        _this.labelTitle.style.fontStyle = 'italic';
+        _this.labelTitle.style.fontSize = 48;
+        _this.labelTitle.anchor.set(0.5);
+
+        _this.gameView.view.addChild(_this.labelTitle);
 
         _this.gameView.view.addChild(_this.gridContainer);
         _this.gameView.view.addChild(_this.cardsContainer);
@@ -92656,17 +92681,35 @@ var SurvivorDeckController = function (_GameObject) {
             }
 
             this.cardsContainer.x = _Game2.default.Borders.width * 0.5;
-            this.cardsContainer.y = _Game2.default.Borders.height * 0.5 - 50;
+            this.cardsContainer.y = _Game2.default.Borders.height * 0.5 + 20;
             this.transitionContainer.x = this.cardsContainer.x;
             this.transitionContainer.y = this.cardsContainer.y;
 
             this.backShape.alpha = _Utils2.default.lerp(this.backShape.alpha, 0.9, 0.1);
 
+            var screenWidth = _Game2.default.Borders.width;
+            var screenHeight = _Game2.default.Borders.height;
+
+            var originalWidth = this.backShape.texture.width;
+            var originalHeight = this.backShape.texture.height;
+
+            // calculate scale to fit while maintaining aspect ratio
+            var scale = Math.max(screenWidth / originalWidth, screenHeight / originalHeight);
+
+            this.backShape.scale.set(scale);
+            this.backShape.anchor.set(0.5, 0.5);
+            this.backShape.x = _Game2.default.Borders.width / 2;
+            this.backShape.y = _Game2.default.Borders.height / 2;
+
             this.blocker.width = _Game2.default.Borders.width;
             this.blocker.height = _Game2.default.Borders.height;
 
-            this.backShape.width = _Game2.default.Borders.width;
-            this.backShape.height = _Game2.default.Borders.height;
+            this.labelTitle.x = _Game2.default.Borders.width / 2;
+            this.labelTitle.y = Math.max(80, _Game2.default.Borders.height / 2 - 400);
+
+            this.eagle.x = _Game2.default.Borders.width / 2;
+            this.eagle.y = _Game2.default.Borders.height / 2 - 180;
+            this.eagle.scale.set(400 / _Game2.default.Borders.width);
 
             this.uiButtons.x = _Game2.default.Borders.width / 2 - this.uiButtons.w / 2;
             this.uiButtons.y = _Game2.default.Borders.height - this.uiButtons.height - 40;
@@ -98309,6 +98352,9 @@ var TouchAxisInput = function (_PIXI$Container) {
         _this.axis = [0, 0];
         _this.angle = null;
 
+        _this.origin = new PIXI.Point(); // add in constructor
+
+
         _this.dist = 0;
         _this.distN = 0;
 
@@ -98320,7 +98366,7 @@ var TouchAxisInput = function (_PIXI$Container) {
         _this.center.anchor.set(0.5);
         _this.addChild(_this.center);
 
-        _this.hitArea = new PIXI.Rectangle(-_this.background.width, -_this.background.height, _this.background.width * 2, _this.background.height * 2);
+        _this.hitArea = new PIXI.Rectangle(-_this.background.width * 500, -_this.background.height * 500, _this.background.width * 2 * 500, _this.background.height * 2 * 500);
         _this.interactive = true;
         _this.on('mousemove', _this.onMouseMove.bind(_this)).on('touchmove', _this.onMouseMove.bind(_this));
         _this.on('mousedown', _this.onMouseDown.bind(_this)).on('touchstart', _this.onMouseDown.bind(_this));
@@ -98349,34 +98395,30 @@ var TouchAxisInput = function (_PIXI$Container) {
         key: 'onMouseDown',
         value: function onMouseDown(e) {
             var globalTouch = e.data.global;
-            var global = this.getGlobalPosition();
+            this.touchID = e.data.identifier;
+            this.dragging = true;
 
-            this.currentDistance = _utils2.default.distance(globalTouch.x, globalTouch.y, global.x, global.y);
-            if (this.currentDistance < this.maxDist) {
-                this.touchID = e.data.identifier;
+            this.origin.set(globalTouch.x, globalTouch.y);
 
-                this.dragging = true;
-                if (this.currentDistance > 10) {
+            // Convert global to parent's local position
+            var localPos = this.parent.toLocal(globalTouch);
+            this.position.set(localPos.x, localPos.y);
 
-                    this.angle = this.getAngle(e);
-                    var dist = this.getDist(e);
+            this.center.position.set(0); // reset center
+            this.background.setTransform(0, 0); // background stays centered in local space
 
-                    this.distN = dist / this.maxDist;
+            this.angle = this.getAngle(e);
+            var dist = this.getDist(e);
 
-                    this.distN = Math.min(1, this.distN);
+            this.distN = Math.min(1, dist / this.maxDist);
+            this.dist = this.maxDist * 0.5 * this.distN;
 
-                    this.dist = this.maxDist * 0.5 * this.distN;
+            this.axis = [Math.cos(this.angle), Math.sin(this.angle)];
+            this.center.x = this.axis[0] * this.dist;
+            this.center.y = this.axis[1] * this.dist;
 
-                    this.axis = [Math.cos(this.angle), Math.sin(this.angle)];
-                    this.center.x = this.axis[0] * this.dist;
-                    this.center.y = this.axis[1] * this.dist;
-
-                    this.onStartDrag.dispatch(this);
-                    _gsap.TweenLite.killTweensOf(this.center);
-                }
-            } else {
-                this.dragging = false;
-            }
+            this.onStartDrag.dispatch(this);
+            _gsap.TweenLite.killTweensOf(this.center);
         }
     }, {
         key: 'onMouseUp',
@@ -98392,6 +98434,7 @@ var TouchAxisInput = function (_PIXI$Container) {
         key: 'onMouseMove',
         value: function onMouseMove(e) {
             if (this.dragging) {
+                this.alpha = 1;
                 this.angle = this.getAngle(e);
                 var dist = this.getDist(e);
 
@@ -98410,35 +98453,29 @@ var TouchAxisInput = function (_PIXI$Container) {
         key: 'reset',
         value: function reset() {
             this.axis = [0, 0];
-            this.currentPressed = [];
             this.dragging = false;
             this.touchID = null;
             this.onStopDrag.dispatch(this);
             _gsap.TweenLite.to(this.center, 0.5, { x: 0, y: 0, ease: _gsap.Elastic.easeOut });
+            _gsap.TweenLite.to(this.center, 0.5, { y: 0 });
+            _gsap.TweenLite.to(this, 0.5, { alpha: 0 });
+            // Optionally move joystick offscreen or hide
+            // this.position.set(-9999, -9999);
         }
     }, {
         key: 'getDist',
         value: function getDist(e) {
-            if (!this.testTouch(e)) {
-                return this.currentDistance / this.mainScale;
-            }
+            if (!this.testTouch(e)) return this.currentDistance / this.mainScale;
             var globalTouch = e.data.global;
-            var global = this.getGlobalPosition();
-
-            this.currentDistance = _utils2.default.distance(globalTouch.x, globalTouch.y, global.x, global.y);
-
+            this.currentDistance = _utils2.default.distance(globalTouch.x, globalTouch.y, this.origin.x, this.origin.y);
             return this.currentDistance / this.mainScale;
         }
     }, {
         key: 'getAngle',
         value: function getAngle(e) {
-            if (!this.testTouch(e)) {
-                return this.angle;
-            }
+            if (!this.testTouch(e)) return this.angle;
             var globalTouch = e.data.global;
-            var global = this.getGlobalPosition();
-
-            return Math.atan2(globalTouch.y - global.y, globalTouch.x - global.x);
+            return Math.atan2(globalTouch.y - this.origin.y, globalTouch.x - this.origin.x);
         }
     }, {
         key: 'update',
@@ -101441,7 +101478,7 @@ window.LABELS.LABEL_DAMAGE = {
 /* 324 */
 /***/ (function(module, exports) {
 
-module.exports = {"default":["image/terrain/terrain.json","image/texture/texture.json","image/hud/hud.json","image/guns/guns.json","image/ui-no-tiny/ui-no-tiny.json","image/icons/icons.json","image/ui/ui.json","image/environment/environment.json","image/body-parts/body-parts.json","image/particles/particles.json","image/characters/characters.json","image/vfx/vfx.json"]}
+module.exports = {"default":["image/terrain/terrain.json","image/texture/texture.json","image/hud/hud.json","image/guns/guns.json","image/ui-no-tiny/ui-no-tiny.json","image/icons/icons.json","image/environment/environment.json","image/body-parts/body-parts.json","image/particles/particles.json","image/characters/characters.json","image/vfx/vfx.json","image/ui/ui.json"]}
 
 /***/ }),
 /* 325 */
@@ -101463,17 +101500,14 @@ var assets = [{
 	"id": "dropTile",
 	"url": "assets/audio\\dropTile.mp3"
 }, {
-	"id": "getstar",
-	"url": "assets/audio\\getstar.mp3"
-}, {
 	"id": "FloatingCities",
 	"url": "assets/audio\\FloatingCities.mp3"
 }, {
+	"id": "getstar",
+	"url": "assets/audio\\getstar.mp3"
+}, {
 	"id": "getThemAll",
 	"url": "assets/audio\\getThemAll.mp3"
-}, {
-	"id": "item",
-	"url": "assets/audio\\item.mp3"
 }, {
 	"id": "GunShot2",
 	"url": "assets/audio\\GunShot2.mp3"
@@ -101481,14 +101515,17 @@ var assets = [{
 	"id": "GunShot4",
 	"url": "assets/audio\\GunShot4.mp3"
 }, {
-	"id": "Laser4",
-	"url": "assets/audio\\Laser4.mp3"
-}, {
 	"id": "HeavyWeapons19",
 	"url": "assets/audio\\HeavyWeapons19.mp3"
 }, {
+	"id": "item",
+	"url": "assets/audio\\item.mp3"
+}, {
 	"id": "kill",
 	"url": "assets/audio\\kill.mp3"
+}, {
+	"id": "Laser4",
+	"url": "assets/audio\\Laser4.mp3"
 }, {
 	"id": "Mummys-Rocking-Rumble",
 	"url": "assets/audio\\Mummys-Rocking-Rumble.mp3"
@@ -101499,9 +101536,6 @@ var assets = [{
 	"id": "Musical-Beep-Loop-02",
 	"url": "assets/audio\\Musical-Beep-Loop-02.mp3"
 }, {
-	"id": "Pop-Low-Pitch-Up-02",
-	"url": "assets/audio\\Pop-Low-Pitch-Up-02.mp3"
-}, {
 	"id": "Ping-Slide-Down",
 	"url": "assets/audio\\Ping-Slide-Down.mp3"
 }, {
@@ -101511,20 +101545,20 @@ var assets = [{
 	"id": "Pop-Musical",
 	"url": "assets/audio\\Pop-Musical.mp3"
 }, {
+	"id": "Pop-Low-Pitch-Up-02",
+	"url": "assets/audio\\Pop-Low-Pitch-Up-02.mp3"
+}, {
 	"id": "Pop-Tone",
 	"url": "assets/audio\\Pop-Tone.mp3"
-}, {
-	"id": "pop",
-	"url": "assets/audio\\pop.mp3"
-}, {
-	"id": "pop2",
-	"url": "assets/audio\\pop2.mp3"
 }, {
 	"id": "shoosh",
 	"url": "assets/audio\\shoosh.mp3"
 }, {
-	"id": "slot-machine",
-	"url": "assets/audio\\slot-machine.mp3"
+	"id": "pop2",
+	"url": "assets/audio\\pop2.mp3"
+}, {
+	"id": "pop",
+	"url": "assets/audio\\pop.mp3"
 }, {
 	"id": "siren",
 	"url": "assets/audio\\siren.mp3"
@@ -101537,6 +101571,9 @@ var assets = [{
 }, {
 	"id": "Tap-01",
 	"url": "assets/audio\\Tap-01.mp3"
+}, {
+	"id": "slot-machine",
+	"url": "assets/audio\\slot-machine.mp3"
 }, {
 	"id": "teleport",
 	"url": "assets/audio\\teleport.mp3"
@@ -101571,23 +101608,23 @@ var assets = [{
 	"id": "localization_ES",
 	"url": "assets/json\\localization_ES.json"
 }, {
-	"id": "localization_FR",
-	"url": "assets/json\\localization_FR.json"
-}, {
 	"id": "localization_IT",
 	"url": "assets/json\\localization_IT.json"
 }, {
+	"id": "localization_FR",
+	"url": "assets/json\\localization_FR.json"
+}, {
 	"id": "localization_JA",
 	"url": "assets/json\\localization_JA.json"
+}, {
+	"id": "localization_PT",
+	"url": "assets/json\\localization_PT.json"
 }, {
 	"id": "localization_KO",
 	"url": "assets/json\\localization_KO.json"
 }, {
 	"id": "localization_RU",
 	"url": "assets/json\\localization_RU.json"
-}, {
-	"id": "localization_PT",
-	"url": "assets/json\\localization_PT.json"
 }, {
 	"id": "localization_TR",
 	"url": "assets/json\\localization_TR.json"
@@ -101598,23 +101635,20 @@ var assets = [{
 	"id": "modifyers",
 	"url": "assets/json\\modifyers.json"
 }, {
-	"id": "player-assets",
-	"url": "assets/json\\assets\\player-assets.json"
-}, {
-	"id": "cards",
-	"url": "assets/json\\cards\\cards.json"
-}, {
 	"id": "entity-animation",
 	"url": "assets/json\\animation\\entity-animation.json"
-}, {
-	"id": "player-animation",
-	"url": "assets/json\\animation\\player-animation.json"
 }, {
 	"id": "companion-animation",
 	"url": "assets/json\\animation\\companion-animation.json"
 }, {
-	"id": "game-shop",
-	"url": "assets/json\\economy\\game-shop.json"
+	"id": "player-animation",
+	"url": "assets/json\\animation\\player-animation.json"
+}, {
+	"id": "cards",
+	"url": "assets/json\\cards\\cards.json"
+}, {
+	"id": "player-assets",
+	"url": "assets/json\\assets\\player-assets.json"
 }, {
 	"id": "body-parts",
 	"url": "assets/json\\database\\body-parts.json"
@@ -101622,14 +101656,17 @@ var assets = [{
 	"id": "starter-inventory",
 	"url": "assets/json\\database\\starter-inventory.json"
 }, {
+	"id": "game-shop",
+	"url": "assets/json\\economy\\game-shop.json"
+}, {
 	"id": "companions",
 	"url": "assets/json\\entity\\companions.json"
 }, {
-	"id": "player",
-	"url": "assets/json\\entity\\player.json"
-}, {
 	"id": "enemies",
 	"url": "assets/json\\entity\\enemies.json"
+}, {
+	"id": "player",
+	"url": "assets/json\\entity\\player.json"
 }, {
 	"id": "enemy-wave-001",
 	"url": "assets/json\\enemy-waves\\enemy-wave-001.json"
@@ -101637,23 +101674,35 @@ var assets = [{
 	"id": "enemy-wave-01",
 	"url": "assets/json\\enemy-waves\\enemy-wave-01.json"
 }, {
+	"id": "enemy-wave-02",
+	"url": "assets/json\\enemy-waves\\enemy-wave-02.json"
+}, {
 	"id": "enemy-wave-03",
 	"url": "assets/json\\enemy-waves\\enemy-wave-03.json"
 }, {
 	"id": "enemy-wave-04",
 	"url": "assets/json\\enemy-waves\\enemy-wave-04.json"
 }, {
-	"id": "enemy-wave-02",
-	"url": "assets/json\\enemy-waves\\enemy-wave-02.json"
-}, {
-	"id": "wavesBkp",
-	"url": "assets/json\\enemy-waves\\wavesBkp.json"
+	"id": "enemy-wave-tutorial",
+	"url": "assets/json\\enemy-waves\\enemy-wave-tutorial.json"
 }, {
 	"id": "waves2",
 	"url": "assets/json\\enemy-waves\\waves2.json"
 }, {
-	"id": "enemy-wave-tutorial",
-	"url": "assets/json\\enemy-waves\\enemy-wave-tutorial.json"
+	"id": "wavesBkp",
+	"url": "assets/json\\enemy-waves\\wavesBkp.json"
+}, {
+	"id": "acessories",
+	"url": "assets/json\\misc\\acessories.json"
+}, {
+	"id": "attachments",
+	"url": "assets/json\\misc\\attachments.json"
+}, {
+	"id": "buff-debuff",
+	"url": "assets/json\\misc\\buff-debuff.json"
+}, {
+	"id": "attribute-modifiers",
+	"url": "assets/json\\misc\\attribute-modifiers.json"
 }, {
 	"id": "level-001",
 	"url": "assets/json\\environment\\level-001.json"
@@ -101673,20 +101722,20 @@ var assets = [{
 	"id": "level-tutorial",
 	"url": "assets/json\\environment\\level-tutorial.json"
 }, {
-	"id": "particle-behaviour",
-	"url": "assets/json\\vfx\\particle-behaviour.json"
-}, {
-	"id": "particle-descriptors",
-	"url": "assets/json\\vfx\\particle-descriptors.json"
-}, {
 	"id": "general-vfx",
 	"url": "assets/json\\vfx\\general-vfx.json"
+}, {
+	"id": "particle-behaviour",
+	"url": "assets/json\\vfx\\particle-behaviour.json"
 }, {
 	"id": "weapon-vfx-pack",
 	"url": "assets/json\\vfx\\weapon-vfx-pack.json"
 }, {
 	"id": "weapon-vfx",
 	"url": "assets/json\\vfx\\weapon-vfx.json"
+}, {
+	"id": "particle-descriptors",
+	"url": "assets/json\\vfx\\particle-descriptors.json"
 }, {
 	"id": "main-weapons",
 	"url": "assets/json\\weapons\\main-weapons.json"
@@ -101696,18 +101745,6 @@ var assets = [{
 }, {
 	"id": "weapon-view-overriders",
 	"url": "assets/json\\weapons\\weapon-view-overriders.json"
-}, {
-	"id": "acessories",
-	"url": "assets/json\\misc\\acessories.json"
-}, {
-	"id": "attachments",
-	"url": "assets/json\\misc\\attachments.json"
-}, {
-	"id": "attribute-modifiers",
-	"url": "assets/json\\misc\\attribute-modifiers.json"
-}, {
-	"id": "buff-debuff",
-	"url": "assets/json\\misc\\buff-debuff.json"
 }];
 
 exports.default = assets;
