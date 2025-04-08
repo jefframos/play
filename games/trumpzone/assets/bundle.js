@@ -91867,14 +91867,14 @@ var GameplaySessionController = function (_GameObject) {
                 _this3.player.sessionData.onLevelUp.add(_this3.onPlayerLevelUp.bind(_this3));
                 _this3.player.sessionData.onOpenChest.add(_this3.onOpenChest.bind(_this3));
 
-                if (_Game2.default.Debug.debug) {
+                if (_Game2.default.Debug.deck) {
                     _this3.toggleDeck();
                 }
             }, 1);
 
-            setTimeout(function () {
-                _this3.onPlayerLevelUp();
-            }, 100);
+            // setTimeout(() => {
+            //     this.onPlayerLevelUp()
+            // }, 100);
         }
     }, {
         key: "onOpenChest",
@@ -101518,20 +101518,20 @@ var assets = [{
 	"id": "HeavyWeapons19",
 	"url": "assets/audio\\HeavyWeapons19.mp3"
 }, {
-	"id": "item",
-	"url": "assets/audio\\item.mp3"
-}, {
 	"id": "kill",
 	"url": "assets/audio\\kill.mp3"
+}, {
+	"id": "item",
+	"url": "assets/audio\\item.mp3"
 }, {
 	"id": "Laser4",
 	"url": "assets/audio\\Laser4.mp3"
 }, {
-	"id": "Mummys-Rocking-Rumble",
-	"url": "assets/audio\\Mummys-Rocking-Rumble.mp3"
-}, {
 	"id": "magic",
 	"url": "assets/audio\\magic.mp3"
+}, {
+	"id": "Mummys-Rocking-Rumble",
+	"url": "assets/audio\\Mummys-Rocking-Rumble.mp3"
 }, {
 	"id": "Musical-Beep-Loop-02",
 	"url": "assets/audio\\Musical-Beep-Loop-02.mp3"
@@ -101542,41 +101542,41 @@ var assets = [{
 	"id": "place",
 	"url": "assets/audio\\place.mp3"
 }, {
-	"id": "Pop-Musical",
-	"url": "assets/audio\\Pop-Musical.mp3"
-}, {
 	"id": "Pop-Low-Pitch-Up-02",
 	"url": "assets/audio\\Pop-Low-Pitch-Up-02.mp3"
+}, {
+	"id": "Pop-Musical",
+	"url": "assets/audio\\Pop-Musical.mp3"
 }, {
 	"id": "Pop-Tone",
 	"url": "assets/audio\\Pop-Tone.mp3"
 }, {
-	"id": "shoosh",
-	"url": "assets/audio\\shoosh.mp3"
-}, {
-	"id": "pop2",
-	"url": "assets/audio\\pop2.mp3"
-}, {
 	"id": "pop",
 	"url": "assets/audio\\pop.mp3"
+}, {
+	"id": "shoosh",
+	"url": "assets/audio\\shoosh.mp3"
 }, {
 	"id": "siren",
 	"url": "assets/audio\\siren.mp3"
 }, {
-	"id": "Synth-Appear-01",
-	"url": "assets/audio\\Synth-Appear-01.mp3"
-}, {
-	"id": "squash1",
-	"url": "assets/audio\\squash1.mp3"
-}, {
-	"id": "Tap-01",
-	"url": "assets/audio\\Tap-01.mp3"
+	"id": "pop2",
+	"url": "assets/audio\\pop2.mp3"
 }, {
 	"id": "slot-machine",
 	"url": "assets/audio\\slot-machine.mp3"
 }, {
+	"id": "squash1",
+	"url": "assets/audio\\squash1.mp3"
+}, {
+	"id": "Synth-Appear-01",
+	"url": "assets/audio\\Synth-Appear-01.mp3"
+}, {
 	"id": "teleport",
 	"url": "assets/audio\\teleport.mp3"
+}, {
+	"id": "Tap-01",
+	"url": "assets/audio\\Tap-01.mp3"
 }];
 
 exports.default = assets;
@@ -101599,17 +101599,14 @@ var assets = [{
 	"id": "config",
 	"url": "assets/json\\config.json"
 }, {
-	"id": "localization_DE",
-	"url": "assets/json\\localization_DE.json"
-}, {
 	"id": "localization_EN",
 	"url": "assets/json\\localization_EN.json"
 }, {
+	"id": "localization_DE",
+	"url": "assets/json\\localization_DE.json"
+}, {
 	"id": "localization_ES",
 	"url": "assets/json\\localization_ES.json"
-}, {
-	"id": "localization_IT",
-	"url": "assets/json\\localization_IT.json"
 }, {
 	"id": "localization_FR",
 	"url": "assets/json\\localization_FR.json"
@@ -101617,11 +101614,14 @@ var assets = [{
 	"id": "localization_JA",
 	"url": "assets/json\\localization_JA.json"
 }, {
-	"id": "localization_PT",
-	"url": "assets/json\\localization_PT.json"
+	"id": "localization_IT",
+	"url": "assets/json\\localization_IT.json"
 }, {
 	"id": "localization_KO",
 	"url": "assets/json\\localization_KO.json"
+}, {
+	"id": "localization_PT",
+	"url": "assets/json\\localization_PT.json"
 }, {
 	"id": "localization_RU",
 	"url": "assets/json\\localization_RU.json"
@@ -101635,20 +101635,23 @@ var assets = [{
 	"id": "modifyers",
 	"url": "assets/json\\modifyers.json"
 }, {
-	"id": "entity-animation",
-	"url": "assets/json\\animation\\entity-animation.json"
-}, {
-	"id": "companion-animation",
-	"url": "assets/json\\animation\\companion-animation.json"
-}, {
-	"id": "player-animation",
-	"url": "assets/json\\animation\\player-animation.json"
-}, {
 	"id": "cards",
 	"url": "assets/json\\cards\\cards.json"
 }, {
 	"id": "player-assets",
 	"url": "assets/json\\assets\\player-assets.json"
+}, {
+	"id": "companion-animation",
+	"url": "assets/json\\animation\\companion-animation.json"
+}, {
+	"id": "entity-animation",
+	"url": "assets/json\\animation\\entity-animation.json"
+}, {
+	"id": "player-animation",
+	"url": "assets/json\\animation\\player-animation.json"
+}, {
+	"id": "game-shop",
+	"url": "assets/json\\economy\\game-shop.json"
 }, {
 	"id": "body-parts",
 	"url": "assets/json\\database\\body-parts.json"
@@ -101656,17 +101659,23 @@ var assets = [{
 	"id": "starter-inventory",
 	"url": "assets/json\\database\\starter-inventory.json"
 }, {
-	"id": "game-shop",
-	"url": "assets/json\\economy\\game-shop.json"
+	"id": "level-001",
+	"url": "assets/json\\environment\\level-001.json"
 }, {
-	"id": "companions",
-	"url": "assets/json\\entity\\companions.json"
+	"id": "level-1",
+	"url": "assets/json\\environment\\level-1.json"
 }, {
-	"id": "enemies",
-	"url": "assets/json\\entity\\enemies.json"
+	"id": "level-4",
+	"url": "assets/json\\environment\\level-4.json"
 }, {
-	"id": "player",
-	"url": "assets/json\\entity\\player.json"
+	"id": "level-3",
+	"url": "assets/json\\environment\\level-3.json"
+}, {
+	"id": "level-tutorial",
+	"url": "assets/json\\environment\\level-tutorial.json"
+}, {
+	"id": "level-2",
+	"url": "assets/json\\environment\\level-2.json"
 }, {
 	"id": "enemy-wave-001",
 	"url": "assets/json\\enemy-waves\\enemy-wave-001.json"
@@ -101695,47 +101704,38 @@ var assets = [{
 	"id": "acessories",
 	"url": "assets/json\\misc\\acessories.json"
 }, {
+	"id": "attribute-modifiers",
+	"url": "assets/json\\misc\\attribute-modifiers.json"
+}, {
 	"id": "attachments",
 	"url": "assets/json\\misc\\attachments.json"
 }, {
 	"id": "buff-debuff",
 	"url": "assets/json\\misc\\buff-debuff.json"
 }, {
-	"id": "attribute-modifiers",
-	"url": "assets/json\\misc\\attribute-modifiers.json"
+	"id": "companions",
+	"url": "assets/json\\entity\\companions.json"
 }, {
-	"id": "level-001",
-	"url": "assets/json\\environment\\level-001.json"
+	"id": "enemies",
+	"url": "assets/json\\entity\\enemies.json"
 }, {
-	"id": "level-1",
-	"url": "assets/json\\environment\\level-1.json"
-}, {
-	"id": "level-2",
-	"url": "assets/json\\environment\\level-2.json"
-}, {
-	"id": "level-3",
-	"url": "assets/json\\environment\\level-3.json"
-}, {
-	"id": "level-4",
-	"url": "assets/json\\environment\\level-4.json"
-}, {
-	"id": "level-tutorial",
-	"url": "assets/json\\environment\\level-tutorial.json"
-}, {
-	"id": "general-vfx",
-	"url": "assets/json\\vfx\\general-vfx.json"
+	"id": "player",
+	"url": "assets/json\\entity\\player.json"
 }, {
 	"id": "particle-behaviour",
 	"url": "assets/json\\vfx\\particle-behaviour.json"
 }, {
+	"id": "general-vfx",
+	"url": "assets/json\\vfx\\general-vfx.json"
+}, {
 	"id": "weapon-vfx-pack",
 	"url": "assets/json\\vfx\\weapon-vfx-pack.json"
 }, {
-	"id": "weapon-vfx",
-	"url": "assets/json\\vfx\\weapon-vfx.json"
-}, {
 	"id": "particle-descriptors",
 	"url": "assets/json\\vfx\\particle-descriptors.json"
+}, {
+	"id": "weapon-vfx",
+	"url": "assets/json\\vfx\\weapon-vfx.json"
 }, {
 	"id": "main-weapons",
 	"url": "assets/json\\weapons\\main-weapons.json"
