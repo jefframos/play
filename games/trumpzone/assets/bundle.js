@@ -87504,7 +87504,6 @@ var GameScreen = function (_Screen) {
             } else {
                 this.touchAxisInput.visible = false;
             }
-            console.log(this.inputModule.touchAxisDown);
             this.touchAxisInput.update();
 
             this.stats.text = 'FPS: ' + window.FPS + '\nPhys: ' + this.physics.physicsStats.totalPhysicsEntities;
@@ -101564,7 +101563,7 @@ window.LABELS.LABEL_DAMAGE = {
 /* 324 */
 /***/ (function(module, exports) {
 
-module.exports = {"default":["image/terrain/terrain.json","image/texture/texture.json","image/hud/hud.json","image/guns/guns.json","image/ui-no-tiny/ui-no-tiny.json","image/icons/icons.json","image/environment/environment.json","image/body-parts/body-parts.json","image/particles/particles.json","image/characters/characters.json","image/vfx/vfx.json","image/ui/ui.json"]}
+module.exports = {"default":["image/terrain/terrain.json","image/hud/hud.json","image/texture/texture.json","image/guns/guns.json","image/ui-no-tiny/ui-no-tiny.json","image/icons/icons.json","image/environment/environment.json","image/body-parts/body-parts.json","image/particles/particles.json","image/characters/characters.json","image/vfx/vfx.json","image/ui/ui.json"]}
 
 /***/ }),
 /* 325 */
@@ -101577,9 +101576,6 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 var assets = [{
-	"id": "dropTile",
-	"url": "assets/audio\\dropTile.mp3"
-}, {
 	"id": "Applause",
 	"url": "assets/audio\\Applause.mp3"
 }, {
@@ -101589,14 +101585,14 @@ var assets = [{
 	"id": "FloatingCities",
 	"url": "assets/audio\\FloatingCities.mp3"
 }, {
-	"id": "getstar",
-	"url": "assets/audio\\getstar.mp3"
-}, {
-	"id": "GunShot2",
-	"url": "assets/audio\\GunShot2.mp3"
+	"id": "dropTile",
+	"url": "assets/audio\\dropTile.mp3"
 }, {
 	"id": "getThemAll",
 	"url": "assets/audio\\getThemAll.mp3"
+}, {
+	"id": "getstar",
+	"url": "assets/audio\\getstar.mp3"
 }, {
 	"id": "GunShot4",
 	"url": "assets/audio\\GunShot4.mp3"
@@ -101604,20 +101600,23 @@ var assets = [{
 	"id": "HeavyWeapons19",
 	"url": "assets/audio\\HeavyWeapons19.mp3"
 }, {
+	"id": "GunShot2",
+	"url": "assets/audio\\GunShot2.mp3"
+}, {
 	"id": "item",
 	"url": "assets/audio\\item.mp3"
-}, {
-	"id": "Laser4",
-	"url": "assets/audio\\Laser4.mp3"
 }, {
 	"id": "kill",
 	"url": "assets/audio\\kill.mp3"
 }, {
-	"id": "Mummys-Rocking-Rumble",
-	"url": "assets/audio\\Mummys-Rocking-Rumble.mp3"
-}, {
 	"id": "magic",
 	"url": "assets/audio\\magic.mp3"
+}, {
+	"id": "Laser4",
+	"url": "assets/audio\\Laser4.mp3"
+}, {
+	"id": "Mummys-Rocking-Rumble",
+	"url": "assets/audio\\Mummys-Rocking-Rumble.mp3"
 }, {
 	"id": "Musical-Beep-Loop-02",
 	"url": "assets/audio\\Musical-Beep-Loop-02.mp3"
@@ -101625,17 +101624,20 @@ var assets = [{
 	"id": "Ping-Slide-Down",
 	"url": "assets/audio\\Ping-Slide-Down.mp3"
 }, {
-	"id": "place",
-	"url": "assets/audio\\place.mp3"
+	"id": "Pop-Musical",
+	"url": "assets/audio\\Pop-Musical.mp3"
 }, {
 	"id": "Pop-Low-Pitch-Up-02",
 	"url": "assets/audio\\Pop-Low-Pitch-Up-02.mp3"
 }, {
-	"id": "Pop-Musical",
-	"url": "assets/audio\\Pop-Musical.mp3"
+	"id": "place",
+	"url": "assets/audio\\place.mp3"
 }, {
 	"id": "Pop-Tone",
 	"url": "assets/audio\\Pop-Tone.mp3"
+}, {
+	"id": "pop2",
+	"url": "assets/audio\\pop2.mp3"
 }, {
 	"id": "pop",
 	"url": "assets/audio\\pop.mp3"
@@ -101643,26 +101645,23 @@ var assets = [{
 	"id": "shoosh",
 	"url": "assets/audio\\shoosh.mp3"
 }, {
-	"id": "pop2",
-	"url": "assets/audio\\pop2.mp3"
-}, {
 	"id": "siren",
 	"url": "assets/audio\\siren.mp3"
 }, {
 	"id": "slot-machine",
 	"url": "assets/audio\\slot-machine.mp3"
 }, {
-	"id": "squash1",
-	"url": "assets/audio\\squash1.mp3"
-}, {
 	"id": "Synth-Appear-01",
 	"url": "assets/audio\\Synth-Appear-01.mp3"
 }, {
-	"id": "teleport",
-	"url": "assets/audio\\teleport.mp3"
+	"id": "squash1",
+	"url": "assets/audio\\squash1.mp3"
 }, {
 	"id": "Tap-01",
 	"url": "assets/audio\\Tap-01.mp3"
+}, {
+	"id": "teleport",
+	"url": "assets/audio\\teleport.mp3"
 }];
 
 exports.default = assets;
@@ -101688,26 +101687,26 @@ var assets = [{
 	"id": "localization_DE",
 	"url": "assets/json\\localization_DE.json"
 }, {
-	"id": "localization_EN",
-	"url": "assets/json\\localization_EN.json"
-}, {
 	"id": "localization_ES",
 	"url": "assets/json\\localization_ES.json"
-}, {
-	"id": "localization_FR",
-	"url": "assets/json\\localization_FR.json"
 }, {
 	"id": "localization_IT",
 	"url": "assets/json\\localization_IT.json"
 }, {
+	"id": "localization_EN",
+	"url": "assets/json\\localization_EN.json"
+}, {
+	"id": "localization_FR",
+	"url": "assets/json\\localization_FR.json"
+}, {
 	"id": "localization_JA",
 	"url": "assets/json\\localization_JA.json"
 }, {
-	"id": "localization_PT",
-	"url": "assets/json\\localization_PT.json"
-}, {
 	"id": "localization_KO",
 	"url": "assets/json\\localization_KO.json"
+}, {
+	"id": "localization_PT",
+	"url": "assets/json\\localization_PT.json"
 }, {
 	"id": "localization_RU",
 	"url": "assets/json\\localization_RU.json"
@@ -101721,12 +101720,6 @@ var assets = [{
 	"id": "modifyers",
 	"url": "assets/json\\modifyers.json"
 }, {
-	"id": "player-assets",
-	"url": "assets/json\\assets\\player-assets.json"
-}, {
-	"id": "cards",
-	"url": "assets/json\\cards\\cards.json"
-}, {
 	"id": "companion-animation",
 	"url": "assets/json\\animation\\companion-animation.json"
 }, {
@@ -101736,14 +101729,29 @@ var assets = [{
 	"id": "player-animation",
 	"url": "assets/json\\animation\\player-animation.json"
 }, {
+	"id": "player-assets",
+	"url": "assets/json\\assets\\player-assets.json"
+}, {
+	"id": "cards",
+	"url": "assets/json\\cards\\cards.json"
+}, {
+	"id": "game-shop",
+	"url": "assets/json\\economy\\game-shop.json"
+}, {
 	"id": "body-parts",
 	"url": "assets/json\\database\\body-parts.json"
 }, {
 	"id": "starter-inventory",
 	"url": "assets/json\\database\\starter-inventory.json"
 }, {
-	"id": "game-shop",
-	"url": "assets/json\\economy\\game-shop.json"
+	"id": "companions",
+	"url": "assets/json\\entity\\companions.json"
+}, {
+	"id": "enemies",
+	"url": "assets/json\\entity\\enemies.json"
+}, {
+	"id": "player",
+	"url": "assets/json\\entity\\player.json"
 }, {
 	"id": "enemy-wave-001",
 	"url": "assets/json\\enemy-waves\\enemy-wave-001.json"
@@ -101763,35 +101771,11 @@ var assets = [{
 	"id": "enemy-wave-tutorial",
 	"url": "assets/json\\enemy-waves\\enemy-wave-tutorial.json"
 }, {
-	"id": "waves2",
-	"url": "assets/json\\enemy-waves\\waves2.json"
-}, {
 	"id": "wavesBkp",
 	"url": "assets/json\\enemy-waves\\wavesBkp.json"
 }, {
-	"id": "companions",
-	"url": "assets/json\\entity\\companions.json"
-}, {
-	"id": "enemies",
-	"url": "assets/json\\entity\\enemies.json"
-}, {
-	"id": "player",
-	"url": "assets/json\\entity\\player.json"
-}, {
-	"id": "general-vfx",
-	"url": "assets/json\\vfx\\general-vfx.json"
-}, {
-	"id": "particle-behaviour",
-	"url": "assets/json\\vfx\\particle-behaviour.json"
-}, {
-	"id": "particle-descriptors",
-	"url": "assets/json\\vfx\\particle-descriptors.json"
-}, {
-	"id": "weapon-vfx-pack",
-	"url": "assets/json\\vfx\\weapon-vfx-pack.json"
-}, {
-	"id": "weapon-vfx",
-	"url": "assets/json\\vfx\\weapon-vfx.json"
+	"id": "waves2",
+	"url": "assets/json\\enemy-waves\\waves2.json"
 }, {
 	"id": "acessories",
 	"url": "assets/json\\misc\\acessories.json"
@@ -101808,11 +101792,11 @@ var assets = [{
 	"id": "level-001",
 	"url": "assets/json\\environment\\level-001.json"
 }, {
-	"id": "level-1",
-	"url": "assets/json\\environment\\level-1.json"
-}, {
 	"id": "level-2",
 	"url": "assets/json\\environment\\level-2.json"
+}, {
+	"id": "level-1",
+	"url": "assets/json\\environment\\level-1.json"
 }, {
 	"id": "level-3",
 	"url": "assets/json\\environment\\level-3.json"
@@ -101831,6 +101815,21 @@ var assets = [{
 }, {
 	"id": "weapon-view-overriders",
 	"url": "assets/json\\weapons\\weapon-view-overriders.json"
+}, {
+	"id": "general-vfx",
+	"url": "assets/json\\vfx\\general-vfx.json"
+}, {
+	"id": "particle-behaviour",
+	"url": "assets/json\\vfx\\particle-behaviour.json"
+}, {
+	"id": "particle-descriptors",
+	"url": "assets/json\\vfx\\particle-descriptors.json"
+}, {
+	"id": "weapon-vfx-pack",
+	"url": "assets/json\\vfx\\weapon-vfx-pack.json"
+}, {
+	"id": "weapon-vfx",
+	"url": "assets/json\\vfx\\weapon-vfx.json"
 }];
 
 exports.default = assets;
