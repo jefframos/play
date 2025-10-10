@@ -1,0 +1,908 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": []
+    },
+    {
+      "name": "fps",
+      "assets": [
+        {
+          "alias": [
+            "fps/textures",
+            "textures"
+          ],
+          "src": [
+            "fps/textures-Nc4eWQ.webp.json",
+            "fps/textures-jeokIg@0.5x.png.json",
+            "fps/textures-aJP62g.png.json",
+            "fps/textures-71-zSQ@0.5x.webp.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "merge",
+      "assets": []
+    },
+    {
+      "name": "template",
+      "assets": [
+        {
+          "alias": [
+            "template/ui",
+            "ui"
+          ],
+          "src": [
+            "template/ui-Uqj6LQ.png.json",
+            "template/ui-pR6GQQ.webp.json",
+            "template/ui-LF-ncg@0.5x.webp.json",
+            "template/ui-FmKJ-A@0.5x.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "textures",
+      "assets": [
+        {
+          "alias": [
+            "textures/blue-sky-1/nx.png"
+          ],
+          "src": [
+            "textures/blue-sky-1/nx-zN3F8w@0.5x.webp",
+            "textures/blue-sky-1/nx-FFem3A.png",
+            "textures/blue-sky-1/nx-86JPPw@0.5x.png",
+            "textures/blue-sky-1/nx-5wq1ug.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1/ny.png"
+          ],
+          "src": [
+            "textures/blue-sky-1/ny-SS8Clg@0.5x.png",
+            "textures/blue-sky-1/ny-S2KjUQ.png",
+            "textures/blue-sky-1/ny-auMigQ.webp",
+            "textures/blue-sky-1/ny-808siA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1/nz.png"
+          ],
+          "src": [
+            "textures/blue-sky-1/nz-xbSDlg@0.5x.webp",
+            "textures/blue-sky-1/nz-oF7fZA.webp",
+            "textures/blue-sky-1/nz-jTfD8A@0.5x.png",
+            "textures/blue-sky-1/nz-Ib24LQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1/px.png"
+          ],
+          "src": [
+            "textures/blue-sky-1/px-gLM8pg@0.5x.webp",
+            "textures/blue-sky-1/px-aM2jSw.png",
+            "textures/blue-sky-1/px-9bS8dA@0.5x.png",
+            "textures/blue-sky-1/px-4FLFNw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1/py.png"
+          ],
+          "src": [
+            "textures/blue-sky-1/py-ON0Fhg@0.5x.png",
+            "textures/blue-sky-1/py-IFk1JA@0.5x.webp",
+            "textures/blue-sky-1/py-FG3q0Q.png",
+            "textures/blue-sky-1/py-1ueD2g.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1/pz.png"
+          ],
+          "src": [
+            "textures/blue-sky-1/pz-RIfD3A@0.5x.webp",
+            "textures/blue-sky-1/pz-QWwzdQ.png",
+            "textures/blue-sky-1/pz-NRcymQ@0.5x.png",
+            "textures/blue-sky-1/pz-dQTebA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1-pixel/nx.png"
+          ],
+          "src": [
+            "textures/blue-sky-1-pixel/nx-tr4yPw@0.5x.webp",
+            "textures/blue-sky-1-pixel/nx-rgS0bg.png",
+            "textures/blue-sky-1-pixel/nx-Kn0UCQ.webp",
+            "textures/blue-sky-1-pixel/nx-axCq0g@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1-pixel/ny.png"
+          ],
+          "src": [
+            "textures/blue-sky-1-pixel/ny-PgjTEw@0.5x.webp",
+            "textures/blue-sky-1-pixel/ny-jPT3fw.webp",
+            "textures/blue-sky-1-pixel/ny-iLDjeg.png",
+            "textures/blue-sky-1-pixel/ny-1znvcg@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1-pixel/nz.png"
+          ],
+          "src": [
+            "textures/blue-sky-1-pixel/nz-etWsVw.webp",
+            "textures/blue-sky-1-pixel/nz-bQq_@0.5x.png",
+            "textures/blue-sky-1-pixel/nz--vdwkw.png",
+            "textures/blue-sky-1-pixel/nz-_IiHdA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1-pixel/px.png"
+          ],
+          "src": [
+            "textures/blue-sky-1-pixel/px-ZLblBA@0.5x.webp",
+            "textures/blue-sky-1-pixel/px-tPc2gg.png",
+            "textures/blue-sky-1-pixel/px-Q23qgg.webp",
+            "textures/blue-sky-1-pixel/px-fsfwUg@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1-pixel/py.png"
+          ],
+          "src": [
+            "textures/blue-sky-1-pixel/py-nrpzag.png",
+            "textures/blue-sky-1-pixel/py-HtmT-w.webp",
+            "textures/blue-sky-1-pixel/py-1Nij3Q@0.5x.webp",
+            "textures/blue-sky-1-pixel/py-0mxL@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/blue-sky-1-pixel/pz.png"
+          ],
+          "src": [
+            "textures/blue-sky-1-pixel/pz-uMcxug@0.5x.webp",
+            "textures/blue-sky-1-pixel/pz-KNgWwA.png",
+            "textures/blue-sky-1-pixel/pz-jnAlYA.webp",
+            "textures/blue-sky-1-pixel/pz-dKETcw@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_ARMY_1.png",
+            "COMPOSITE_ARMY_1.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_ARMY_1-wLyfRQ@0.5x.webp",
+            "textures/customization/COMPOSITE_ARMY_1-VO4JKA@0.5x.png",
+            "textures/customization/COMPOSITE_ARMY_1-7EeYgw.webp",
+            "textures/customization/COMPOSITE_ARMY_1-3fCDEQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_ARMY_2.png",
+            "COMPOSITE_ARMY_2.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_ARMY_2-q10BmQ.webp",
+            "textures/customization/COMPOSITE_ARMY_2-K9uV8w@0.5x.webp",
+            "textures/customization/COMPOSITE_ARMY_2-IYZ5ZQ.png",
+            "textures/customization/COMPOSITE_ARMY_2-F8TdAw@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_BASE_BLUE_SHIRT.png",
+            "COMPOSITE_BASE_BLUE_SHIRT.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_BASE_BLUE_SHIRT-ZRG5GQ.webp",
+            "textures/customization/COMPOSITE_BASE_BLUE_SHIRT-UaP0Mw.png",
+            "textures/customization/COMPOSITE_BASE_BLUE_SHIRT-fLnXdQ@0.5x.webp",
+            "textures/customization/COMPOSITE_BASE_BLUE_SHIRT-eEZgwg@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_BASE_PURPLE_SHIRT.png",
+            "COMPOSITE_BASE_PURPLE_SHIRT.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_BASE_PURPLE_SHIRT-q8vn3Q@0.5x.png",
+            "textures/customization/COMPOSITE_BASE_PURPLE_SHIRT-jC3iJA.webp",
+            "textures/customization/COMPOSITE_BASE_PURPLE_SHIRT-fP7N7w@0.5x.webp",
+            "textures/customization/COMPOSITE_BASE_PURPLE_SHIRT-1-yv.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_BASE_RED_SHIRT.png",
+            "COMPOSITE_BASE_RED_SHIRT.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_BASE_RED_SHIRT-Q1sy3g.webp",
+            "textures/customization/COMPOSITE_BASE_RED_SHIRT-mceDCg@0.5x.webp",
+            "textures/customization/COMPOSITE_BASE_RED_SHIRT-GAJ5tg.png",
+            "textures/customization/COMPOSITE_BASE_RED_SHIRT-5U_6vQ@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_BASE_YELLOW_SHIRT.png",
+            "COMPOSITE_BASE_YELLOW_SHIRT.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_BASE_YELLOW_SHIRT-QjuL5g@0.5x.webp",
+            "textures/customization/COMPOSITE_BASE_YELLOW_SHIRT-NxzXlA.webp",
+            "textures/customization/COMPOSITE_BASE_YELLOW_SHIRT-Hobw4Q.png",
+            "textures/customization/COMPOSITE_BASE_YELLOW_SHIRT--S_K8w@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_CYBORG_1.png",
+            "COMPOSITE_CYBORG_1.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_CYBORG_1-zfg_-Q.webp",
+            "textures/customization/COMPOSITE_CYBORG_1-Id9kBg@0.5x.webp",
+            "textures/customization/COMPOSITE_CYBORG_1-a3eN5Q@0.5x.png",
+            "textures/customization/COMPOSITE_CYBORG_1-5gASUA.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_CYBORG_2.png",
+            "COMPOSITE_CYBORG_2.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_CYBORG_2-YIawHg.webp",
+            "textures/customization/COMPOSITE_CYBORG_2-siDhYg@0.5x.png",
+            "textures/customization/COMPOSITE_CYBORG_2-KLeyHQ.png",
+            "textures/customization/COMPOSITE_CYBORG_2-dp2CDA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_CYBORG_3.png",
+            "COMPOSITE_CYBORG_3.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_CYBORG_3-W8CDcw.webp",
+            "textures/customization/COMPOSITE_CYBORG_3-u_YzAQ@0.5x.png",
+            "textures/customization/COMPOSITE_CYBORG_3-TOi7HQ.png",
+            "textures/customization/COMPOSITE_CYBORG_3-2w1csQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_EYE_PATCH.png",
+            "COMPOSITE_EYE_PATCH.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_EYE_PATCH-xxf0uQ.png",
+            "textures/customization/COMPOSITE_EYE_PATCH-Vo1vTA.webp",
+            "textures/customization/COMPOSITE_EYE_PATCH-mWiLAQ@0.5x.png",
+            "textures/customization/COMPOSITE_EYE_PATCH-K6xqvQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_PUNPKIN_1.png",
+            "COMPOSITE_PUNPKIN_1.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_PUNPKIN_1-un190w@0.5x.png",
+            "textures/customization/COMPOSITE_PUNPKIN_1-H6W3bw.webp",
+            "textures/customization/COMPOSITE_PUNPKIN_1-E_aIOQ.png",
+            "textures/customization/COMPOSITE_PUNPKIN_1-7M2zCQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/customization/COMPOSITE_SKELETON.png",
+            "COMPOSITE_SKELETON.png"
+          ],
+          "src": [
+            "textures/customization/COMPOSITE_SKELETON-VP39HA.webp",
+            "textures/customization/COMPOSITE_SKELETON-InKisg.png",
+            "textures/customization/COMPOSITE_SKELETON-2oqhLw@0.5x.webp",
+            "textures/customization/COMPOSITE_SKELETON--9mOww@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/detail1.png",
+            "detail1.png"
+          ],
+          "src": [
+            "textures/detail1-x3mwwA.webp",
+            "textures/detail1-ULAFdA@0.5x.png",
+            "textures/detail1-QANJEg@0.5x.webp",
+            "textures/detail1-LYlNJg.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/grid-1.png",
+            "grid-1.png"
+          ],
+          "src": [
+            "textures/grid-1-x49h.webp",
+            "textures/grid-1-qXQcUw.png",
+            "textures/grid-1-jP_GDA@0.5x.webp",
+            "textures/grid-1-9Ls5@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/grid-2.png",
+            "grid-2.png"
+          ],
+          "src": [
+            "textures/grid-2-ZxRGeA.webp",
+            "textures/grid-2-sOSLGA@0.5x.png",
+            "textures/grid-2-MSSFCQ@0.5x.webp",
+            "textures/grid-2-cTCnkQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/light-cookie.jpg",
+            "light-cookie.jpg"
+          ],
+          "src": [
+            "textures/light-cookie-hjNCQA@0.5x.webp",
+            "textures/light-cookie-hbMW3g.webp",
+            "textures/light-cookie-a1SCKQ@0.5x.jpg",
+            "textures/light-cookie-5TXfBg.jpg"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/loading-card-bg.png",
+            "loading-card-bg.png"
+          ],
+          "src": [
+            "textures/loading-card-bg-nwZCKw.png",
+            "textures/loading-card-bg-EQxrnQ.webp",
+            "textures/loading-card-bg-eP8ODA@0.5x.webp",
+            "textures/loading-card-bg-dTga8Q@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/maps/castle.png",
+            "castle.png"
+          ],
+          "src": [
+            "textures/maps/castle-V3Jxdw@0.5x.png",
+            "textures/maps/castle-iqv1UA.webp",
+            "textures/maps/castle-G2c4Tg@0.5x.webp",
+            "textures/maps/castle-2x9orw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/maps/containers.png",
+            "containers.png"
+          ],
+          "src": [
+            "textures/maps/containers-vrcqYA@0.5x.webp",
+            "textures/maps/containers-qDibUg.webp",
+            "textures/maps/containers-oXeoQA@0.5x.png",
+            "textures/maps/containers-dRkPSQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/maps/dar-neon.png",
+            "dar-neon.png"
+          ],
+          "src": [
+            "textures/maps/dar-neon-wElR8g@0.5x.png",
+            "textures/maps/dar-neon-E0YMgA@0.5x.webp",
+            "textures/maps/dar-neon-bxbyHQ.png",
+            "textures/maps/dar-neon-2DlIVA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/maps/desert-1.png",
+            "desert-1.png"
+          ],
+          "src": [
+            "textures/maps/desert-1-S-gjNg.png",
+            "textures/maps/desert-1-MYUxrQ@0.5x.png",
+            "textures/maps/desert-1-eVxJaA@0.5x.webp",
+            "textures/maps/desert-1-EU3ZyQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/maps/manor.png",
+            "manor.png"
+          ],
+          "src": [
+            "textures/maps/manor-pdL2xA@0.5x.png",
+            "textures/maps/manor-LJ2nBg.webp",
+            "textures/maps/manor-7Moi.png",
+            "textures/maps/manor-5ognkg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/maps/neon-night.png",
+            "neon-night.png"
+          ],
+          "src": [
+            "textures/maps/neon-night-XXP0eQ@0.5x.webp",
+            "textures/maps/neon-night-egKq_A@0.5x.png",
+            "textures/maps/neon-night-8ojCmg.webp",
+            "textures/maps/neon-night--ayasA.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/maps/secret-lab.png"
+          ],
+          "src": [
+            "textures/maps/secret-lab-l0oGxQ.webp",
+            "textures/maps/secret-lab-HydxcA@0.5x.webp",
+            "textures/maps/secret-lab--XdL4g@0.5x.png",
+            "textures/maps/secret-lab--BUm9w.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/maps/space-colony.png",
+            "space-colony.png"
+          ],
+          "src": [
+            "textures/maps/space-colony-ZtgsZQ@0.5x.png",
+            "textures/maps/space-colony-wkwgIA.webp",
+            "textures/maps/space-colony-StgmIQ@0.5x.webp",
+            "textures/maps/space-colony-Ki7x6A.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/maps/space.png",
+            "space.png"
+          ],
+          "src": [
+            "textures/maps/space-z_z9fQ.webp",
+            "textures/maps/space-Msp_NQ.png",
+            "textures/maps/space-IqqeEQ@0.5x.png",
+            "textures/maps/space-a3Porg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/maps/spooky-maze.png",
+            "spooky-maze.png"
+          ],
+          "src": [
+            "textures/maps/spooky-maze-sZC1IQ@0.5x.png",
+            "textures/maps/spooky-maze-s4jmKQ.webp",
+            "textures/maps/spooky-maze-pRdjIg.png",
+            "textures/maps/spooky-maze-_lFzyA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/night-sky/nx.png"
+          ],
+          "src": [
+            "textures/night-sky/nx-tIZ70Q@0.5x.png",
+            "textures/night-sky/nx-qpfgGA.png",
+            "textures/night-sky/nx-put3gg@0.5x.webp",
+            "textures/night-sky/nx-hlQ6ug.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/night-sky/ny.png"
+          ],
+          "src": [
+            "textures/night-sky/ny-PH6X3Q@0.5x.png",
+            "textures/night-sky/ny-nD9Uxg.png",
+            "textures/night-sky/ny-EWx6.webp",
+            "textures/night-sky/ny-eqRljA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/night-sky/nz.png"
+          ],
+          "src": [
+            "textures/night-sky/nz-zJaA7A@0.5x.png",
+            "textures/night-sky/nz-vxqmFA.png",
+            "textures/night-sky/nz-Kb6IqQ.webp",
+            "textures/night-sky/nz-jNNhvA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/night-sky/px.png"
+          ],
+          "src": [
+            "textures/night-sky/px-w61mIA.webp",
+            "textures/night-sky/px-PHJFHg@0.5x.webp",
+            "textures/night-sky/px-J7--@0.5x.png",
+            "textures/night-sky/px-i4BWRA.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/night-sky/py.png"
+          ],
+          "src": [
+            "textures/night-sky/py-SLNURQ@0.5x.webp",
+            "textures/night-sky/py-ljNEQQ.webp",
+            "textures/night-sky/py-l95OtA.png",
+            "textures/night-sky/py-7Xv3CQ@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/night-sky/pz.png"
+          ],
+          "src": [
+            "textures/night-sky/pz-tacfsQ@0.5x.webp",
+            "textures/night-sky/pz-QuATOQ.png",
+            "textures/night-sky/pz-PPyb2g@0.5x.png",
+            "textures/night-sky/pz-gnUvIA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/perlin_greyscale.png",
+            "perlin_greyscale.png"
+          ],
+          "src": [
+            "textures/perlin_greyscale-Q90Avw@0.5x.webp",
+            "textures/perlin_greyscale-L4rKnw@0.5x.png",
+            "textures/perlin_greyscale-dtPT3g.png",
+            "textures/perlin_greyscale-5Y2uPg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/seamless-starfield-texture.jpg",
+            "seamless-starfield-texture.jpg"
+          ],
+          "src": [
+            "textures/seamless-starfield-texture-yQ7kUA@0.5x.webp",
+            "textures/seamless-starfield-texture-Kx1wpA.jpg",
+            "textures/seamless-starfield-texture-G9oa_A.webp",
+            "textures/seamless-starfield-texture-9b0ZiQ@0.5x.jpg"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/secret-lab.png"
+          ],
+          "src": [
+            "textures/secret-lab-l0oGxQ.webp",
+            "textures/secret-lab-HydxcA@0.5x.webp",
+            "textures/secret-lab--XdL4g@0.5x.png",
+            "textures/secret-lab--BUm9w.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/sky-texture/sky.png"
+          ],
+          "src": [
+            "textures/sky-texture/sky-tBxgBQ.png",
+            "textures/sky-texture/sky-FyR_MQ.webp",
+            "textures/sky-texture/sky-bq_j8A@0.5x.webp",
+            "textures/sky-texture/sky-4DlNfg@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/sky.png"
+          ],
+          "src": [
+            "textures/sky-tBxgBQ.png",
+            "textures/sky-FyR_MQ.webp",
+            "textures/sky-bq_j8A@0.5x.webp",
+            "textures/sky-4DlNfg@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "textures/stars.png",
+            "stars.png"
+          ],
+          "src": [
+            "textures/stars-Xse_iw@0.5x.png",
+            "textures/stars-uYsB8g@0.5x.webp",
+            "textures/stars-Sy6UGg.png",
+            "textures/stars-J0jo.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

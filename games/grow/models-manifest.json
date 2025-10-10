@@ -1,0 +1,3382 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": []
+    },
+    {
+      "name": "characters",
+      "assets": [
+        {
+          "alias": [
+            "characters/default/characterMedium.fbx"
+          ],
+          "src": [
+            "characters/default/characterMedium.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "characters/default/FallingIdle.fbx"
+          ],
+          "src": [
+            "characters/default/FallingIdle.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "characters/default/idle.fbx"
+          ],
+          "src": [
+            "characters/default/idle.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "characters/default/idle2.fbx"
+          ],
+          "src": [
+            "characters/default/idle2.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "characters/default/jump.fbx"
+          ],
+          "src": [
+            "characters/default/jump.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "characters/default/JumpingUp.fbx"
+          ],
+          "src": [
+            "characters/default/JumpingUp.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "characters/default/Landing.fbx"
+          ],
+          "src": [
+            "characters/default/Landing.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "characters/default/run.fbx"
+          ],
+          "src": [
+            "characters/default/run.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "characters/default/Running.fbx"
+          ],
+          "src": [
+            "characters/default/Running.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "characters/default/Stand To Roll.fbx"
+          ],
+          "src": [
+            "characters/default/Stand To Roll.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "characters/default/test_idle.glb"
+          ],
+          "src": [
+            "characters/default/test_idle.glb"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "fps",
+      "assets": [
+        {
+          "alias": [
+            "fps/assetstore_zombie_survivor_1_body_diffuse.png"
+          ],
+          "src": [
+            "fps/assetstore_zombie_survivor_1_body_diffuse.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/assetstore_zombie_survivor_1_head_diffuse.png"
+          ],
+          "src": [
+            "fps/assetstore_zombie_survivor_1_head_diffuse.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/blank3.fbx"
+          ],
+          "src": [
+            "fps/blank3.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/AR_7N_Aberidus.mtl"
+          ],
+          "src": [
+            "fps/guns/AR_7N_Aberidus.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/AR_7N_Aberidus.obj"
+          ],
+          "src": [
+            "fps/guns/AR_7N_Aberidus.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/AR_HFG_Reiltas.mtl"
+          ],
+          "src": [
+            "fps/guns/AR_HFG_Reiltas.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/AR_HFG_Reiltas.obj"
+          ],
+          "src": [
+            "fps/guns/AR_HFG_Reiltas.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/AR_JMB_Underdoug.mtl"
+          ],
+          "src": [
+            "fps/guns/AR_JMB_Underdoug.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/AR_JMB_Underdoug.obj"
+          ],
+          "src": [
+            "fps/guns/AR_JMB_Underdoug.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/AR_SXG_Skaxis.mtl"
+          ],
+          "src": [
+            "fps/guns/AR_SXG_Skaxis.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/AR_SXG_Skaxis.obj"
+          ],
+          "src": [
+            "fps/guns/AR_SXG_Skaxis.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/AssaultRifle_1.mtl"
+          ],
+          "src": [
+            "fps/guns/AssaultRifle_1.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/AssaultRifle_1.obj"
+          ],
+          "src": [
+            "fps/guns/AssaultRifle_1.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blade_1AK_Olielle.mtl"
+          ],
+          "src": [
+            "fps/guns/Blade_1AK_Olielle.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blade_1AK_Olielle.obj"
+          ],
+          "src": [
+            "fps/guns/Blade_1AK_Olielle.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blade_1R_Chesture.mtl"
+          ],
+          "src": [
+            "fps/guns/Blade_1R_Chesture.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blade_1R_Chesture.obj"
+          ],
+          "src": [
+            "fps/guns/Blade_1R_Chesture.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blade_6V5_Tupacase.mtl"
+          ],
+          "src": [
+            "fps/guns/Blade_6V5_Tupacase.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blade_6V5_Tupacase.obj"
+          ],
+          "src": [
+            "fps/guns/Blade_6V5_Tupacase.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blade_MZ0_Stepjump.mtl"
+          ],
+          "src": [
+            "fps/guns/Blade_MZ0_Stepjump.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blade_MZ0_Stepjump.obj"
+          ],
+          "src": [
+            "fps/guns/Blade_MZ0_Stepjump.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_1XO_Unelind.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_1XO_Unelind.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_1XO_Unelind.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_1XO_Unelind.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_4XZ_Bumola.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_4XZ_Bumola.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_4XZ_Bumola.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_4XZ_Bumola.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_6EQ_Kizerain.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_6EQ_Kizerain.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_6EQ_Kizerain.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_6EQ_Kizerain.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_6WO_Astauand.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_6WO_Astauand.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_6WO_Astauand.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_6WO_Astauand.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_8HG_Cazoova.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_8HG_Cazoova.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_8HG_Cazoova.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_8HG_Cazoova.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_9YP_Johackle.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_9YP_Johackle.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_9YP_Johackle.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_9YP_Johackle.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_ALL_Castrealm.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_ALL_Castrealm.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_ALL_Castrealm.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_ALL_Castrealm.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_GBE_Mk1.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_GBE_Mk1.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_GBE_Mk1.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_GBE_Mk1.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_GBE_Mk2.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_GBE_Mk2.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_GBE_Mk2.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_GBE_Mk2.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_HRP_Singlewave.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_HRP_Singlewave.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_HRP_Singlewave.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_HRP_Singlewave.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_HRP_Singlewave_unscoped.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_HRP_Singlewave_unscoped.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_HRP_Singlewave_unscoped.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_HRP_Singlewave_unscoped.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_K2_Ploosnar.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_K2_Ploosnar.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_K2_Ploosnar.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_K2_Ploosnar.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_Q6H_Blewrath.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_Q6H_Blewrath.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_Q6H_Blewrath.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_Q6H_Blewrath.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_RA1_Neoskizzle.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_RA1_Neoskizzle.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_RA1_Neoskizzle.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_RA1_Neoskizzle.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_S32_Trelod.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_S32_Trelod.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_S32_Trelod.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_S32_Trelod.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_SOP_Chevesic.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_SOP_Chevesic.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_SOP_Chevesic.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_SOP_Chevesic.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_YUK_Vallume.mtl"
+          ],
+          "src": [
+            "fps/guns/Blaster_YUK_Vallume.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Blaster_YUK_Vallume.obj"
+          ],
+          "src": [
+            "fps/guns/Blaster_YUK_Vallume.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_4BQ_Grynn.mtl"
+          ],
+          "src": [
+            "fps/guns/Cannon_4BQ_Grynn.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_4BQ_Grynn.obj"
+          ],
+          "src": [
+            "fps/guns/Cannon_4BQ_Grynn.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_4BQ_Grynn_shot_or_mag.mtl"
+          ],
+          "src": [
+            "fps/guns/Cannon_4BQ_Grynn_shot_or_mag.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_4BQ_Grynn_shot_or_mag.obj"
+          ],
+          "src": [
+            "fps/guns/Cannon_4BQ_Grynn_shot_or_mag.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_LHD_Feandra.mtl"
+          ],
+          "src": [
+            "fps/guns/Cannon_LHD_Feandra.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_LHD_Feandra.obj"
+          ],
+          "src": [
+            "fps/guns/Cannon_LHD_Feandra.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_LHD_Feandra_shot1.mtl"
+          ],
+          "src": [
+            "fps/guns/Cannon_LHD_Feandra_shot1.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_LHD_Feandra_shot1.obj"
+          ],
+          "src": [
+            "fps/guns/Cannon_LHD_Feandra_shot1.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_LHD_Feandra_shot2.mtl"
+          ],
+          "src": [
+            "fps/guns/Cannon_LHD_Feandra_shot2.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_LHD_Feandra_shot2.obj"
+          ],
+          "src": [
+            "fps/guns/Cannon_LHD_Feandra_shot2.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_Q6O_Sassee.mtl"
+          ],
+          "src": [
+            "fps/guns/Cannon_Q6O_Sassee.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_Q6O_Sassee.obj"
+          ],
+          "src": [
+            "fps/guns/Cannon_Q6O_Sassee.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_Q6O_Sassee_shot.mtl"
+          ],
+          "src": [
+            "fps/guns/Cannon_Q6O_Sassee_shot.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_Q6O_Sassee_shot.obj"
+          ],
+          "src": [
+            "fps/guns/Cannon_Q6O_Sassee_shot.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_Q6O_Sassee_shot_2.mtl"
+          ],
+          "src": [
+            "fps/guns/Cannon_Q6O_Sassee_shot_2.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_Q6O_Sassee_shot_2.obj"
+          ],
+          "src": [
+            "fps/guns/Cannon_Q6O_Sassee_shot_2.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_TEJ_Boaconic.mtl"
+          ],
+          "src": [
+            "fps/guns/Cannon_TEJ_Boaconic.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_TEJ_Boaconic.obj"
+          ],
+          "src": [
+            "fps/guns/Cannon_TEJ_Boaconic.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_WWW_Jiofrax.mtl"
+          ],
+          "src": [
+            "fps/guns/Cannon_WWW_Jiofrax.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Cannon_WWW_Jiofrax.obj"
+          ],
+          "src": [
+            "fps/guns/Cannon_WWW_Jiofrax.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Device_85P_Sepezz.mtl"
+          ],
+          "src": [
+            "fps/guns/Device_85P_Sepezz.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Device_85P_Sepezz.obj"
+          ],
+          "src": [
+            "fps/guns/Device_85P_Sepezz.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Device_EHK_Dropperclear.mtl"
+          ],
+          "src": [
+            "fps/guns/Device_EHK_Dropperclear.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Device_EHK_Dropperclear.obj"
+          ],
+          "src": [
+            "fps/guns/Device_EHK_Dropperclear.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Device_KEA_Didiza.mtl"
+          ],
+          "src": [
+            "fps/guns/Device_KEA_Didiza.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Device_KEA_Didiza.obj"
+          ],
+          "src": [
+            "fps/guns/Device_KEA_Didiza.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Device_M1P_Yeinyd.mtl"
+          ],
+          "src": [
+            "fps/guns/Device_M1P_Yeinyd.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Device_M1P_Yeinyd.obj"
+          ],
+          "src": [
+            "fps/guns/Device_M1P_Yeinyd.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Device_Y80_Yimello.mtl"
+          ],
+          "src": [
+            "fps/guns/Device_Y80_Yimello.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Device_Y80_Yimello.obj"
+          ],
+          "src": [
+            "fps/guns/Device_Y80_Yimello.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Emitter_42_Mizule.mtl"
+          ],
+          "src": [
+            "fps/guns/Emitter_42_Mizule.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Emitter_42_Mizule.obj"
+          ],
+          "src": [
+            "fps/guns/Emitter_42_Mizule.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Emitter_9QA_Minivivi.mtl"
+          ],
+          "src": [
+            "fps/guns/Emitter_9QA_Minivivi.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Emitter_9QA_Minivivi.obj"
+          ],
+          "src": [
+            "fps/guns/Emitter_9QA_Minivivi.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Emitter_LPZ_Geosyog.mtl"
+          ],
+          "src": [
+            "fps/guns/Emitter_LPZ_Geosyog.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Emitter_LPZ_Geosyog.obj"
+          ],
+          "src": [
+            "fps/guns/Emitter_LPZ_Geosyog.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Emitter_N7M_Seiliu.mtl"
+          ],
+          "src": [
+            "fps/guns/Emitter_N7M_Seiliu.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Emitter_N7M_Seiliu.obj"
+          ],
+          "src": [
+            "fps/guns/Emitter_N7M_Seiliu.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/fusil_2.obj"
+          ],
+          "src": [
+            "fps/guns/fusil_2.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_2F6_Loheckle.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_2F6_Loheckle.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_2F6_Loheckle.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_2F6_Loheckle.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_380_Resaix.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_380_Resaix.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_380_Resaix.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_380_Resaix.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_4WG_Chershoe.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_4WG_Chershoe.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_4WG_Chershoe.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_4WG_Chershoe.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_4X2_Onama.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_4X2_Onama.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_4X2_Onama.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_4X2_Onama.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_5O4_Peachflame.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_5O4_Peachflame.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_5O4_Peachflame.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_5O4_Peachflame.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_6F3_Wavefire.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_6F3_Wavefire.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_6F3_Wavefire.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_6F3_Wavefire.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_9H1_Digikiki.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_9H1_Digikiki.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_9H1_Digikiki.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_9H1_Digikiki.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_AUA_Pounit.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_AUA_Pounit.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_AUA_Pounit.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_AUA_Pounit.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_MKR_Nekmit.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_MKR_Nekmit.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_MKR_Nekmit.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_MKR_Nekmit.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_NEE_Yboiveth.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_NEE_Yboiveth.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_NEE_Yboiveth.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_NEE_Yboiveth.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_OFC_Biasdo.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_OFC_Biasdo.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_OFC_Biasdo.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_OFC_Biasdo.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_PQL_Pirend.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_PQL_Pirend.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_PQL_Pirend.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_PQL_Pirend.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_QM7_Parede.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_QM7_Parede.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_QM7_Parede.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_QM7_Parede.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_RNZ_Hooppler.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_RNZ_Hooppler.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_RNZ_Hooppler.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_RNZ_Hooppler.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_SVH_Novanoid.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_SVH_Novanoid.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_SVH_Novanoid.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_SVH_Novanoid.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_YZ3_Glomtom.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_YZ3_Glomtom.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_YZ3_Glomtom.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_YZ3_Glomtom.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_ZMG_Aferraron.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_ZMG_Aferraron.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_ZMG_Aferraron.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_ZMG_Aferraron.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_ZUB_Besloor.mtl"
+          ],
+          "src": [
+            "fps/guns/Grenade_ZUB_Besloor.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Grenade_ZUB_Besloor.obj"
+          ],
+          "src": [
+            "fps/guns/Grenade_ZUB_Besloor.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Kit_BTP_Cheilith.mtl"
+          ],
+          "src": [
+            "fps/guns/Kit_BTP_Cheilith.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Kit_BTP_Cheilith.obj"
+          ],
+          "src": [
+            "fps/guns/Kit_BTP_Cheilith.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Kit_J72_Hysleria.mtl"
+          ],
+          "src": [
+            "fps/guns/Kit_J72_Hysleria.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Kit_J72_Hysleria.obj"
+          ],
+          "src": [
+            "fps/guns/Kit_J72_Hysleria.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Kit_TQF_Toogit.mtl"
+          ],
+          "src": [
+            "fps/guns/Kit_TQF_Toogit.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Kit_TQF_Toogit.obj"
+          ],
+          "src": [
+            "fps/guns/Kit_TQF_Toogit.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_NGS_Gorealm.mtl"
+          ],
+          "src": [
+            "fps/guns/Launcher_NGS_Gorealm.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_NGS_Gorealm.obj"
+          ],
+          "src": [
+            "fps/guns/Launcher_NGS_Gorealm.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_NGS_Gorealm_shot.mtl"
+          ],
+          "src": [
+            "fps/guns/Launcher_NGS_Gorealm_shot.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_NGS_Gorealm_shot.obj"
+          ],
+          "src": [
+            "fps/guns/Launcher_NGS_Gorealm_shot.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_QU4_Roinad.mtl"
+          ],
+          "src": [
+            "fps/guns/Launcher_QU4_Roinad.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_QU4_Roinad.obj"
+          ],
+          "src": [
+            "fps/guns/Launcher_QU4_Roinad.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_QU4_Roinad_shot.mtl"
+          ],
+          "src": [
+            "fps/guns/Launcher_QU4_Roinad_shot.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_QU4_Roinad_shot.obj"
+          ],
+          "src": [
+            "fps/guns/Launcher_QU4_Roinad_shot.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_XU_Sorson.mtl"
+          ],
+          "src": [
+            "fps/guns/Launcher_XU_Sorson.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_XU_Sorson.obj"
+          ],
+          "src": [
+            "fps/guns/Launcher_XU_Sorson.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_XU_Sorson_shot.mtl"
+          ],
+          "src": [
+            "fps/guns/Launcher_XU_Sorson_shot.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_XU_Sorson_shot.obj"
+          ],
+          "src": [
+            "fps/guns/Launcher_XU_Sorson_shot.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_YFR_Swoquix.mtl"
+          ],
+          "src": [
+            "fps/guns/Launcher_YFR_Swoquix.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_YFR_Swoquix.obj"
+          ],
+          "src": [
+            "fps/guns/Launcher_YFR_Swoquix.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_YFR_Swoquix_shot.mtl"
+          ],
+          "src": [
+            "fps/guns/Launcher_YFR_Swoquix_shot.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_YFR_Swoquix_shot.obj"
+          ],
+          "src": [
+            "fps/guns/Launcher_YFR_Swoquix_shot.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_ZVT_Wazzasoft.mtl"
+          ],
+          "src": [
+            "fps/guns/Launcher_ZVT_Wazzasoft.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_ZVT_Wazzasoft.obj"
+          ],
+          "src": [
+            "fps/guns/Launcher_ZVT_Wazzasoft.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_ZVT_Wazzasoft_shot.mtl"
+          ],
+          "src": [
+            "fps/guns/Launcher_ZVT_Wazzasoft_shot.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Launcher_ZVT_Wazzasoft_shot.obj"
+          ],
+          "src": [
+            "fps/guns/Launcher_ZVT_Wazzasoft_shot.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/MG_CZJ_Creahoof.mtl"
+          ],
+          "src": [
+            "fps/guns/MG_CZJ_Creahoof.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/MG_CZJ_Creahoof.obj"
+          ],
+          "src": [
+            "fps/guns/MG_CZJ_Creahoof.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Pistol_0ZI_Sexatoo.mtl"
+          ],
+          "src": [
+            "fps/guns/Pistol_0ZI_Sexatoo.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Pistol_0ZI_Sexatoo.obj"
+          ],
+          "src": [
+            "fps/guns/Pistol_0ZI_Sexatoo.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Pistol_1.mtl"
+          ],
+          "src": [
+            "fps/guns/Pistol_1.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Pistol_1.obj"
+          ],
+          "src": [
+            "fps/guns/Pistol_1.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/pistol_2.obj"
+          ],
+          "src": [
+            "fps/guns/pistol_2.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/pistol_4.obj"
+          ],
+          "src": [
+            "fps/guns/pistol_4.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/pistol_5.obj"
+          ],
+          "src": [
+            "fps/guns/pistol_5.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Pistol_I0L_Moderock.mtl"
+          ],
+          "src": [
+            "fps/guns/Pistol_I0L_Moderock.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Pistol_I0L_Moderock.obj"
+          ],
+          "src": [
+            "fps/guns/Pistol_I0L_Moderock.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Pistol_P7_Kiraric.mtl"
+          ],
+          "src": [
+            "fps/guns/Pistol_P7_Kiraric.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Pistol_P7_Kiraric.obj"
+          ],
+          "src": [
+            "fps/guns/Pistol_P7_Kiraric.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Pistol_SSL_Printure.mtl"
+          ],
+          "src": [
+            "fps/guns/Pistol_SSL_Printure.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Pistol_SSL_Printure.obj"
+          ],
+          "src": [
+            "fps/guns/Pistol_SSL_Printure.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Projector_1RY_Pruvia.mtl"
+          ],
+          "src": [
+            "fps/guns/Projector_1RY_Pruvia.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Projector_1RY_Pruvia.obj"
+          ],
+          "src": [
+            "fps/guns/Projector_1RY_Pruvia.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Projector_3RM_Glowl.mtl"
+          ],
+          "src": [
+            "fps/guns/Projector_3RM_Glowl.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Projector_3RM_Glowl.obj"
+          ],
+          "src": [
+            "fps/guns/Projector_3RM_Glowl.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Revolver_1.mtl"
+          ],
+          "src": [
+            "fps/guns/Revolver_1.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Revolver_1.obj"
+          ],
+          "src": [
+            "fps/guns/Revolver_1.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Revolver_3P8_Plakill.mtl"
+          ],
+          "src": [
+            "fps/guns/Revolver_3P8_Plakill.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Revolver_3P8_Plakill.obj"
+          ],
+          "src": [
+            "fps/guns/Revolver_3P8_Plakill.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Revolver_F9D_Pegmode.mtl"
+          ],
+          "src": [
+            "fps/guns/Revolver_F9D_Pegmode.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Revolver_F9D_Pegmode.obj"
+          ],
+          "src": [
+            "fps/guns/Revolver_F9D_Pegmode.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Rifle_O78_Bistup.mtl"
+          ],
+          "src": [
+            "fps/guns/Rifle_O78_Bistup.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Rifle_O78_Bistup.obj"
+          ],
+          "src": [
+            "fps/guns/Rifle_O78_Bistup.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Rifle_USW_Wetwest.mtl"
+          ],
+          "src": [
+            "fps/guns/Rifle_USW_Wetwest.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Rifle_USW_Wetwest.obj"
+          ],
+          "src": [
+            "fps/guns/Rifle_USW_Wetwest.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Saw_HSQ_Voov.mtl"
+          ],
+          "src": [
+            "fps/guns/Saw_HSQ_Voov.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Saw_HSQ_Voov.obj"
+          ],
+          "src": [
+            "fps/guns/Saw_HSQ_Voov.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Shotgun_1.mtl"
+          ],
+          "src": [
+            "fps/guns/Shotgun_1.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Shotgun_1.obj"
+          ],
+          "src": [
+            "fps/guns/Shotgun_1.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Shotgun_6OT_Grodsaar.mtl"
+          ],
+          "src": [
+            "fps/guns/Shotgun_6OT_Grodsaar.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Shotgun_6OT_Grodsaar.obj"
+          ],
+          "src": [
+            "fps/guns/Shotgun_6OT_Grodsaar.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Shotgun_BV2_Tribepop.mtl"
+          ],
+          "src": [
+            "fps/guns/Shotgun_BV2_Tribepop.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Shotgun_BV2_Tribepop.obj"
+          ],
+          "src": [
+            "fps/guns/Shotgun_BV2_Tribepop.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Shotgun_LXH_Replitz.mtl"
+          ],
+          "src": [
+            "fps/guns/Shotgun_LXH_Replitz.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Shotgun_LXH_Replitz.obj"
+          ],
+          "src": [
+            "fps/guns/Shotgun_LXH_Replitz.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Shotgun_RE4_Chacaka.mtl"
+          ],
+          "src": [
+            "fps/guns/Shotgun_RE4_Chacaka.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Shotgun_RE4_Chacaka.obj"
+          ],
+          "src": [
+            "fps/guns/Shotgun_RE4_Chacaka.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/SMG_1G9_Waratel.mtl"
+          ],
+          "src": [
+            "fps/guns/SMG_1G9_Waratel.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/SMG_1G9_Waratel.obj"
+          ],
+          "src": [
+            "fps/guns/SMG_1G9_Waratel.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/SMG_GF4_Luwest.mtl"
+          ],
+          "src": [
+            "fps/guns/SMG_GF4_Luwest.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/SMG_GF4_Luwest.obj"
+          ],
+          "src": [
+            "fps/guns/SMG_GF4_Luwest.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/SMG_T0B_Digisol.mtl"
+          ],
+          "src": [
+            "fps/guns/SMG_T0B_Digisol.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/SMG_T0B_Digisol.obj"
+          ],
+          "src": [
+            "fps/guns/SMG_T0B_Digisol.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/SniperRifle_1.mtl"
+          ],
+          "src": [
+            "fps/guns/SniperRifle_1.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/SniperRifle_1.obj"
+          ],
+          "src": [
+            "fps/guns/SniperRifle_1.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Sniper_41J_Unpossible.mtl"
+          ],
+          "src": [
+            "fps/guns/Sniper_41J_Unpossible.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Sniper_41J_Unpossible.obj"
+          ],
+          "src": [
+            "fps/guns/Sniper_41J_Unpossible.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Sniper_F5_Foxclore.mtl"
+          ],
+          "src": [
+            "fps/guns/Sniper_F5_Foxclore.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Sniper_F5_Foxclore.obj"
+          ],
+          "src": [
+            "fps/guns/Sniper_F5_Foxclore.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Tool_3KY_Oleald.mtl"
+          ],
+          "src": [
+            "fps/guns/Tool_3KY_Oleald.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Tool_3KY_Oleald.obj"
+          ],
+          "src": [
+            "fps/guns/Tool_3KY_Oleald.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Tool_R0Q_Voquev.mtl"
+          ],
+          "src": [
+            "fps/guns/Tool_R0Q_Voquev.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Tool_R0Q_Voquev.obj"
+          ],
+          "src": [
+            "fps/guns/Tool_R0Q_Voquev.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Tool_XEY_Bioyino.mtl"
+          ],
+          "src": [
+            "fps/guns/Tool_XEY_Bioyino.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Tool_XEY_Bioyino.obj"
+          ],
+          "src": [
+            "fps/guns/Tool_XEY_Bioyino.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Tool_YXD_Tomash.mtl"
+          ],
+          "src": [
+            "fps/guns/Tool_YXD_Tomash.mtl"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/guns/Tool_YXD_Tomash.obj"
+          ],
+          "src": [
+            "fps/guns/Tool_YXD_Tomash.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/castle.gz"
+          ],
+          "src": [
+            "fps/maps/castle.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/containers.gz"
+          ],
+          "src": [
+            "fps/maps/containers.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/horror3.gz"
+          ],
+          "src": [
+            "fps/maps/horror3.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/InterstingTestMap.gz"
+          ],
+          "src": [
+            "fps/maps/InterstingTestMap.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/io.gz"
+          ],
+          "src": [
+            "fps/maps/io.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/manor - Copy.gz"
+          ],
+          "src": [
+            "fps/maps/manor - Copy.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/manor.gz"
+          ],
+          "src": [
+            "fps/maps/manor.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/map.gz"
+          ],
+          "src": [
+            "fps/maps/map.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/map3.gz"
+          ],
+          "src": [
+            "fps/maps/map3.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/map3Old.gz"
+          ],
+          "src": [
+            "fps/maps/map3Old.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/maze1.gz"
+          ],
+          "src": [
+            "fps/maps/maze1.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/neon-night.gz"
+          ],
+          "src": [
+            "fps/maps/neon-night.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/pitch-1.gz"
+          ],
+          "src": [
+            "fps/maps/pitch-1.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/secret-lab.gz"
+          ],
+          "src": [
+            "fps/maps/secret-lab.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/space-colony.gz"
+          ],
+          "src": [
+            "fps/maps/space-colony.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/space.gz"
+          ],
+          "src": [
+            "fps/maps/space.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "fps/maps/test.gz"
+          ],
+          "src": [
+            "fps/maps/test.gz"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "props",
+      "assets": [
+        {
+          "alias": [
+            "props/characterMedium.fbx"
+          ],
+          "src": [
+            "props/characterMedium.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/FallingIdle.fbx"
+          ],
+          "src": [
+            "props/FallingIdle.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/idle.fbx"
+          ],
+          "src": [
+            "props/idle.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/idle2.fbx"
+          ],
+          "src": [
+            "props/idle2.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/jump.fbx"
+          ],
+          "src": [
+            "props/jump.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/JumpingUp.fbx"
+          ],
+          "src": [
+            "props/JumpingUp.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Landing.fbx"
+          ],
+          "src": [
+            "props/Landing.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Roll.fbx"
+          ],
+          "src": [
+            "props/Roll.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/run.fbx"
+          ],
+          "src": [
+            "props/run.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Running.fbx"
+          ],
+          "src": [
+            "props/Running.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/skibidi_toilet_template.glb"
+          ],
+          "src": [
+            "props/skibidi_toilet_template.glb"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/test_idle.glb"
+          ],
+          "src": [
+            "props/test_idle.glb"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "scenes",
+      "assets": [
+        {
+          "alias": [
+            "scenes/scene1.obj"
+          ],
+          "src": [
+            "scenes/scene1.obj"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

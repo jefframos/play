@@ -1,0 +1,86 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "animations/animation-set.json"
+          ],
+          "src": [
+            "animations/animation-set-o6a_Qw.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "commit-hash.json"
+          ],
+          "src": [
+            "commit-hash--73X9w.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "level/maps/mapEconomy.json"
+          ],
+          "src": [
+            "level/maps/mapEconomy-PZdf2Q.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "level/maps/maps1.json"
+          ],
+          "src": [
+            "level/maps/maps1-YQEalA.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "merge/weapon-merge.json"
+          ],
+          "src": [
+            "merge/weapon-merge-1eX3ew.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "weapon/weapons.json"
+          ],
+          "src": [
+            "weapon/weapons-LWro.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "weapon/weaponView.json"
+          ],
+          "src": [
+            "weapon/weaponView-NMBULA.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        }
+      ]
+    }
+  ]
+}
