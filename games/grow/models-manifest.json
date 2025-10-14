@@ -100,6 +100,19 @@
         },
         {
           "alias": [
+            "characters/default/Roll.fbx"
+          ],
+          "src": [
+            "characters/default/Roll.fbx"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
             "characters/default/run.fbx"
           ],
           "src": [
@@ -3204,10 +3217,10 @@
       "assets": [
         {
           "alias": [
-            "props/characterMedium.fbx"
+            "props/Bush_1_A_Color1.bin"
           ],
           "src": [
-            "props/characterMedium.fbx"
+            "props/Bush_1_A_Color1.bin"
           ],
           "data": {
             "tags": {
@@ -3217,10 +3230,10 @@
         },
         {
           "alias": [
-            "props/FallingIdle.fbx"
+            "props/Bush_1_A_Color1.gltf"
           ],
           "src": [
-            "props/FallingIdle.fbx"
+            "props/Bush_1_A_Color1.gltf"
           ],
           "data": {
             "tags": {
@@ -3230,10 +3243,10 @@
         },
         {
           "alias": [
-            "props/idle.fbx"
+            "props/Bush_1_B_Color1.bin"
           ],
           "src": [
-            "props/idle.fbx"
+            "props/Bush_1_B_Color1.bin"
           ],
           "data": {
             "tags": {
@@ -3243,10 +3256,10 @@
         },
         {
           "alias": [
-            "props/idle2.fbx"
+            "props/Bush_1_B_Color1.gltf"
           ],
           "src": [
-            "props/idle2.fbx"
+            "props/Bush_1_B_Color1.gltf"
           ],
           "data": {
             "tags": {
@@ -3256,10 +3269,10 @@
         },
         {
           "alias": [
-            "props/jump.fbx"
+            "props/Bush_1_C_Color1.bin"
           ],
           "src": [
-            "props/jump.fbx"
+            "props/Bush_1_C_Color1.bin"
           ],
           "data": {
             "tags": {
@@ -3269,10 +3282,10 @@
         },
         {
           "alias": [
-            "props/JumpingUp.fbx"
+            "props/Bush_1_C_Color1.gltf"
           ],
           "src": [
-            "props/JumpingUp.fbx"
+            "props/Bush_1_C_Color1.gltf"
           ],
           "data": {
             "tags": {
@@ -3282,10 +3295,10 @@
         },
         {
           "alias": [
-            "props/Landing.fbx"
+            "props/Bush_1_D_Color1.bin"
           ],
           "src": [
-            "props/Landing.fbx"
+            "props/Bush_1_D_Color1.bin"
           ],
           "data": {
             "tags": {
@@ -3295,10 +3308,10 @@
         },
         {
           "alias": [
-            "props/Roll.fbx"
+            "props/Bush_1_D_Color1.gltf"
           ],
           "src": [
-            "props/Roll.fbx"
+            "props/Bush_1_D_Color1.gltf"
           ],
           "data": {
             "tags": {
@@ -3308,10 +3321,10 @@
         },
         {
           "alias": [
-            "props/run.fbx"
+            "props/Bush_1_E_Color1.bin"
           ],
           "src": [
-            "props/run.fbx"
+            "props/Bush_1_E_Color1.bin"
           ],
           "data": {
             "tags": {
@@ -3321,10 +3334,10 @@
         },
         {
           "alias": [
-            "props/Running.fbx"
+            "props/Bush_1_E_Color1.gltf"
           ],
           "src": [
-            "props/Running.fbx"
+            "props/Bush_1_E_Color1.gltf"
           ],
           "data": {
             "tags": {
@@ -3334,10 +3347,10 @@
         },
         {
           "alias": [
-            "props/skibidi_toilet_template.glb"
+            "props/Bush_1_F_Color1.bin"
           ],
           "src": [
-            "props/skibidi_toilet_template.glb"
+            "props/Bush_1_F_Color1.bin"
           ],
           "data": {
             "tags": {
@@ -3347,10 +3360,2597 @@
         },
         {
           "alias": [
-            "props/test_idle.glb"
+            "props/Bush_1_F_Color1.gltf"
           ],
           "src": [
-            "props/test_idle.glb"
+            "props/Bush_1_F_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_1_G_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_1_G_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_1_G_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_1_G_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_A_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_2_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_2_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_B_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_2_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_2_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_C_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_2_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_2_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_D_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_2_D_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_D_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_2_D_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_E_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_2_E_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_E_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_2_E_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_F_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_2_F_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_2_F_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_2_F_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_3_A_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_3_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_3_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_3_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_3_B_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_3_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_3_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_3_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_3_C_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_3_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_3_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_3_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_A_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_4_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_4_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_B_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_4_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_4_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_C_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_4_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_4_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_D_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_4_D_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_D_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_4_D_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_E_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_4_E_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_E_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_4_E_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_F_Color1.bin"
+          ],
+          "src": [
+            "props/Bush_4_F_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Bush_4_F_Color1.gltf"
+          ],
+          "src": [
+            "props/Bush_4_F_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/forest_texture.png"
+          ],
+          "src": [
+            "props/forest_texture.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_A_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_1_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_1_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_A_Singlesided_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_1_A_Singlesided_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_A_Singlesided_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_1_A_Singlesided_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_B_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_1_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_1_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_B_Singlesided_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_1_B_Singlesided_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_B_Singlesided_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_1_B_Singlesided_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_C_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_1_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_1_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_C_Singlesided_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_1_C_Singlesided_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_C_Singlesided_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_1_C_Singlesided_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_D_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_1_D_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_D_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_1_D_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_D_Singlesided_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_1_D_Singlesided_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_D_Singlesided_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_1_D_Singlesided_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_Mesh.bin"
+          ],
+          "src": [
+            "props/Grass_1_Mesh.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_Mesh.gltf"
+          ],
+          "src": [
+            "props/Grass_1_Mesh.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_SingleSided_Mesh.bin"
+          ],
+          "src": [
+            "props/Grass_1_SingleSided_Mesh.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_1_SingleSided_Mesh.gltf"
+          ],
+          "src": [
+            "props/Grass_1_SingleSided_Mesh.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_A_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_2_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_2_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_A_Singlesided_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_2_A_Singlesided_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_A_Singlesided_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_2_A_Singlesided_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_B_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_2_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_2_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_B_Singlesided_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_2_B_Singlesided_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_B_Singlesided_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_2_B_Singlesided_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_C_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_2_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_2_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_C_Singlesided_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_2_C_Singlesided_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_C_Singlesided_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_2_C_Singlesided_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_D_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_2_D_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_D_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_2_D_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_D_Singlesided_Color1.bin"
+          ],
+          "src": [
+            "props/Grass_2_D_Singlesided_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_D_Singlesided_Color1.gltf"
+          ],
+          "src": [
+            "props/Grass_2_D_Singlesided_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_Mesh.bin"
+          ],
+          "src": [
+            "props/Grass_2_Mesh.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_Mesh.gltf"
+          ],
+          "src": [
+            "props/Grass_2_Mesh.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_SingleSided_Mesh.bin"
+          ],
+          "src": [
+            "props/Grass_2_SingleSided_Mesh.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Grass_2_SingleSided_Mesh.gltf"
+          ],
+          "src": [
+            "props/Grass_2_SingleSided_Mesh.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_A_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_B_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_C_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_D_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_D_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_D_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_D_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_E_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_E_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_E_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_E_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_F_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_F_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_F_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_F_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_G_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_G_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_G_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_G_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_H_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_H_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_H_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_H_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_I_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_I_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_I_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_I_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_J_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_J_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_J_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_J_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_K_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_K_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_K_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_K_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_L_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_L_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_L_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_L_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_M_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_M_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_M_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_M_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_N_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_N_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_N_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_N_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_O_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_O_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_O_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_O_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_P_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_P_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_P_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_P_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_Q_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_1_Q_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_1_Q_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_1_Q_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_A_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_2_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_2_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_B_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_2_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_2_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_C_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_2_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_2_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_D_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_2_D_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_D_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_2_D_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_E_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_2_E_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_E_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_2_E_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_F_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_2_F_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_F_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_2_F_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_G_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_2_G_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_G_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_2_G_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_H_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_2_H_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_2_H_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_2_H_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_A_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_B_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_C_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_D_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_D_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_D_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_D_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_E_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_E_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_E_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_E_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_F_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_F_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_F_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_F_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_G_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_G_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_G_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_G_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_H_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_H_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_H_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_H_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_I_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_I_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_I_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_I_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_J_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_J_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_J_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_J_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_K_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_K_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_K_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_K_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_L_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_L_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_L_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_L_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_M_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_M_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_M_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_M_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_N_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_N_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_N_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_N_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_O_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_O_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_O_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_O_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_P_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_P_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_P_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_P_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_Q_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_Q_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_Q_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_Q_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_R_Color1.bin"
+          ],
+          "src": [
+            "props/Rock_3_R_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Rock_3_R_Color1.gltf"
+          ],
+          "src": [
+            "props/Rock_3_R_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_1_A_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_1_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_1_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_1_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_1_B_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_1_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_1_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_1_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_1_C_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_1_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_1_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_1_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_2_A_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_2_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_2_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_2_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_2_B_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_2_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_2_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_2_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_2_C_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_2_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_2_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_2_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_2_D_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_2_D_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_2_D_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_2_D_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_2_E_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_2_E_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_2_E_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_2_E_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_3_A_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_3_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_3_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_3_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_3_B_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_3_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_3_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_3_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_3_C_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_3_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_3_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_3_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_4_A_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_4_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_4_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_4_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_4_B_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_4_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_4_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_4_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_4_C_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_4_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_4_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_4_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_1_A_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_Bare_1_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_1_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_Bare_1_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_1_B_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_Bare_1_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_1_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_Bare_1_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_1_C_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_Bare_1_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_1_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_Bare_1_C_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_2_A_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_Bare_2_A_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_2_A_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_Bare_2_A_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_2_B_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_Bare_2_B_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_2_B_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_Bare_2_B_Color1.gltf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_2_C_Color1.bin"
+          ],
+          "src": [
+            "props/Tree_Bare_2_C_Color1.bin"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "props/Tree_Bare_2_C_Color1.gltf"
+          ],
+          "src": [
+            "props/Tree_Bare_2_C_Color1.gltf"
           ],
           "data": {
             "tags": {
