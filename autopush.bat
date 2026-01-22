@@ -1,7 +1,7 @@
 @echo off
 set count_file=commit_count.txt
 
-call "Generate" cmd /k "npm run build-dev"
+call npm run build-dev
 
 :: Check if the file exists; if not, initialize it at 0
 if not exist %count_file% (
