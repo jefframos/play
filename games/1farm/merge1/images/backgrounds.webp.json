@@ -120,26 +120,6 @@
         "h": 742
       }
     },
-    "tiles": {
-      "frame": {
-        "x": 934,
-        "y": 2,
-        "w": 256,
-        "h": 256
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 256,
-        "h": 256
-      },
-      "sourceSize": {
-        "w": 256,
-        "h": 256
-      }
-    },
     "table": {
       "frame": {
         "x": 746,
@@ -360,90 +340,10 @@
         "h": 62
       }
     },
-    "grass-patch-1": {
-      "frame": {
-        "x": 934,
-        "y": 260,
-        "w": 256,
-        "h": 256
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 256,
-        "h": 256
-      },
-      "sourceSize": {
-        "w": 256,
-        "h": 256
-      }
-    },
-    "grass-patch-1-old2": {
-      "frame": {
-        "x": 934,
-        "y": 518,
-        "w": 256,
-        "h": 256
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 256,
-        "h": 256
-      },
-      "sourceSize": {
-        "w": 256,
-        "h": 256
-      }
-    },
-    "grass-patch-1-old": {
-      "frame": {
-        "x": 921,
-        "y": 776,
-        "w": 256,
-        "h": 256
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 256,
-        "h": 256
-      },
-      "sourceSize": {
-        "w": 256,
-        "h": 256
-      }
-    },
-    "full-background": {
-      "frame": {
-        "x": 2,
-        "y": 1064,
-        "w": 2115,
-        "h": 1500
-      },
-      "rotated": true,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 2115,
-        "h": 1500
-      },
-      "sourceSize": {
-        "w": 2115,
-        "h": 1500
-      }
-    },
     "frame-3": {
       "frame": {
-        "x": 1179,
-        "y": 776,
+        "x": 934,
+        "y": 2,
         "w": 139,
         "h": 167
       },
@@ -462,12 +362,12 @@
     },
     "frame-2": {
       "frame": {
-        "x": 1320,
-        "y": 2,
+        "x": 934,
+        "y": 171,
         "w": 121,
         "h": 157
       },
-      "rotated": true,
+      "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -482,8 +382,8 @@
     },
     "frame-1": {
       "frame": {
-        "x": 1320,
-        "y": 125,
+        "x": 2,
+        "y": 1064,
         "w": 160,
         "h": 162
       },
@@ -502,8 +402,8 @@
     },
     "couch2": {
       "frame": {
-        "x": 1192,
-        "y": 287,
+        "x": 1075,
+        "y": 2,
         "w": 373,
         "h": 298
       },
@@ -522,12 +422,12 @@
     },
     "couch": {
       "frame": {
-        "x": 1504,
-        "y": 2,
+        "x": 934,
+        "y": 377,
         "w": 405,
         "h": 243
       },
-      "rotated": true,
+      "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -542,12 +442,12 @@
     },
     "cat-tower-2": {
       "frame": {
-        "x": 1749,
-        "y": 2,
+        "x": 2,
+        "y": 1226,
         "w": 423,
         "h": 830
       },
-      "rotated": false,
+      "rotated": true,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -562,8 +462,8 @@
     },
     "carpet": {
       "frame": {
-        "x": 1504,
-        "y": 834,
+        "x": 1375,
+        "y": 2,
         "w": 999,
         "h": 453
       },
@@ -584,11 +484,11 @@
   "meta": {
     "app": "http://github.com/pixijs/assetpack",
     "version": "1.0",
-    "image": "backgrounds.png",
+    "image": "backgrounds.webp",
     "format": "RGBA8888",
     "size": {
-      "w": 2174,
-      "h": 3181
+      "w": 1830,
+      "h": 1651
     },
     "scale": 1,
     "related_multi_packs": []

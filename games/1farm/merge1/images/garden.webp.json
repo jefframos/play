@@ -60,34 +60,14 @@
         "h": 57
       }
     },
-    "tower-toy": {
+    "pot2": {
       "frame": {
         "x": 192,
         "y": 2,
-        "w": 149,
-        "h": 245
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 149,
-        "h": 245
-      },
-      "sourceSize": {
-        "w": 149,
-        "h": 245
-      }
-    },
-    "pot2": {
-      "frame": {
-        "x": 2,
-        "y": 328,
         "w": 124,
         "h": 197
       },
-      "rotated": true,
+      "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -102,7 +82,7 @@
     },
     "pot-tree-3": {
       "frame": {
-        "x": 343,
+        "x": 318,
         "y": 2,
         "w": 114,
         "h": 270
@@ -123,7 +103,7 @@
     "pot-tree-2": {
       "frame": {
         "x": 2,
-        "y": 454,
+        "y": 328,
         "w": 100,
         "h": 306
       },
@@ -142,12 +122,12 @@
     },
     "pot-tree-1": {
       "frame": {
-        "x": 459,
-        "y": 2,
+        "x": 2,
+        "y": 430,
         "w": 216,
         "h": 320
       },
-      "rotated": false,
+      "rotated": true,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -162,7 +142,7 @@
     },
     "plant-3": {
       "frame": {
-        "x": 201,
+        "x": 324,
         "y": 274,
         "w": 95,
         "h": 160
@@ -182,8 +162,8 @@
     },
     "plant-2": {
       "frame": {
-        "x": 310,
-        "y": 324,
+        "x": 324,
+        "y": 436,
         "w": 70,
         "h": 184
       },
@@ -202,8 +182,8 @@
     },
     "plant-1": {
       "frame": {
-        "x": 382,
-        "y": 324,
+        "x": 434,
+        "y": 2,
         "w": 89,
         "h": 150
       },
@@ -222,12 +202,12 @@
     },
     "mat-5": {
       "frame": {
-        "x": 473,
-        "y": 324,
+        "x": 421,
+        "y": 274,
         "w": 155,
         "h": 102
       },
-      "rotated": false,
+      "rotated": true,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -242,12 +222,12 @@
     },
     "mat-4": {
       "frame": {
-        "x": 473,
-        "y": 428,
+        "x": 421,
+        "y": 431,
         "w": 140,
         "h": 99
       },
-      "rotated": false,
+      "rotated": true,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -262,12 +242,12 @@
     },
     "mat-3": {
       "frame": {
-        "x": 2,
-        "y": 556,
+        "x": 525,
+        "y": 2,
         "w": 173,
         "h": 106
       },
-      "rotated": false,
+      "rotated": true,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -282,12 +262,12 @@
     },
     "mat-2": {
       "frame": {
-        "x": 310,
-        "y": 529,
+        "x": 633,
+        "y": 2,
         "w": 172,
         "h": 114
       },
-      "rotated": false,
+      "rotated": true,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -302,12 +282,12 @@
     },
     "mat-1": {
       "frame": {
-        "x": 484,
-        "y": 529,
+        "x": 633,
+        "y": 176,
         "w": 159,
         "h": 98
       },
-      "rotated": false,
+      "rotated": true,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -322,8 +302,8 @@
     },
     "lineyeard": {
       "frame": {
-        "x": 177,
-        "y": 556,
+        "x": 434,
+        "y": 177,
         "w": 93,
         "h": 66
       },
@@ -343,7 +323,7 @@
     "garden-bg": {
       "frame": {
         "x": 2,
-        "y": 664,
+        "y": 648,
         "w": 2056,
         "h": 1500
       },
@@ -362,8 +342,8 @@
     },
     "fish-1": {
       "frame": {
-        "x": 630,
-        "y": 324,
+        "x": 525,
+        "y": 177,
         "w": 173,
         "h": 106
       },
@@ -382,8 +362,8 @@
     },
     "chair": {
       "frame": {
-        "x": 677,
-        "y": 2,
+        "x": 522,
+        "y": 431,
         "w": 202,
         "h": 178
       },
@@ -402,8 +382,8 @@
     },
     "cat-poop-stuff": {
       "frame": {
-        "x": 645,
-        "y": 499,
+        "x": 702,
+        "y": 337,
         "w": 139,
         "h": 141
       },
@@ -422,8 +402,8 @@
     },
     "cat-f": {
       "frame": {
-        "x": 738,
-        "y": 206,
+        "x": 749,
+        "y": 2,
         "w": 181,
         "h": 173
       },
@@ -442,12 +422,12 @@
     },
     "bush3": {
       "frame": {
-        "x": 857,
-        "y": 2,
+        "x": 702,
+        "y": 480,
         "w": 187,
         "h": 152
       },
-      "rotated": true,
+      "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -462,8 +442,8 @@
     },
     "bush2": {
       "frame": {
-        "x": 786,
-        "y": 389,
+        "x": 733,
+        "y": 185,
         "w": 126,
         "h": 120
       },
@@ -482,12 +462,12 @@
     },
     "bush": {
       "frame": {
-        "x": 786,
-        "y": 517,
+        "x": 192,
+        "y": 201,
         "w": 122,
         "h": 97
       },
-      "rotated": true,
+      "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
@@ -502,8 +482,8 @@
     },
     "big-cushion": {
       "frame": {
-        "x": 885,
-        "y": 517,
+        "x": 843,
+        "y": 313,
         "w": 212,
         "h": 129
       },
@@ -524,11 +504,11 @@
   "meta": {
     "app": "http://github.com/pixijs/assetpack",
     "version": "1.0",
-    "image": "garden.png",
+    "image": "garden.webp",
     "format": "RGBA8888",
     "size": {
       "w": 1504,
-      "h": 2722
+      "h": 2706
     },
     "scale": 1,
     "related_multi_packs": []
